@@ -3,4 +3,4 @@
   - Dir.foreach('pages') do |page|
     - unless File::directory?('pages/'+page)
       - if page.split(/\./)[-2..-1] == ['haml','erb']
-        %li= link_to 'pages/'+page
+        %li= link_to '__ROOTPATH__pages/'+page
