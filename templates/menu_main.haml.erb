@@ -1,0 +1,6 @@
+%ul.nav
+  %li <a href="/">Home</a>
+  - Dir.foreach('pages') do |page|
+    - unless File::directory?('pages/'+page)
+      - if page.split(/\./)[-2..-1] == ['haml','erb']
+        %li= link_to 'pages/'+page
