@@ -1,3 +1,8 @@
+.navbar-inner .container {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
 #footer {
   padding-top: 40px;
   padding-left: 40px;
