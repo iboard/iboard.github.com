@@ -12,3 +12,7 @@
   text-decoration: none;
   color: #ddd;
 }
+
+.nav > li > a {
+  display: inline-block;
+}
