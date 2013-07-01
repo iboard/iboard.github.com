@@ -29,6 +29,13 @@ def make_file(file)
   end
 end
 
+def clear_html_files
+  Dir.foreach( File.expand_path('../../pages',__FILE__) ) do |file|
+    if file =~ /html$/
+      File.unlink File.expand_path('../../pages/'+file, __FILE__)
+    end
+  end
+end
 
 def write_index(yield_block=nil,output_to=nil)
   index_template = File.read(File.expand_path('../../templates/index.html',__FILE__))
