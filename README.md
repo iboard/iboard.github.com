@@ -7,6 +7,6 @@ You can easily
 
   * fork this project
   * edit files in `pages/*html.erb`
-  * edit files in `templates/*` (optional)
+  * edit files in `templates/*`
   * run `rake` # will generate static web-pages and opens index.html
   * run `rake -T` to see more rake-task
