@@ -9,11 +9,12 @@ require File.expand_path('../lib/helpers', __FILE__)
 
 task :default => 'build'
 
+desc 'Build static pages'
 task :build do
-  puts "Building http://iboard.github.com ...."
   build_index
 end
 
+private
 def build_index
   puts "# WRITE INDEX ..."
   clear_html_files

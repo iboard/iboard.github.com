@@ -16,3 +16,9 @@
 .nav > li > a {
   display: inline-block;
 }
+
+.andi-bg {
+  min-height: 450px;
+  background: url(http://dav.iboard.cc/container/andi_altendorfer_background_blur.png);
+}
+
