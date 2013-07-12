@@ -4,13 +4,19 @@ h3 { font: 300 1.5em Helvetica; }
 h4 { font: 100 1.5em Helvetica; }
 h5 { font: 100 1.2em Helvetica; }
 h6 { font: 300 1.1em Helvetica; }
+
 a  { 
   color: #222;
   text-shadow: 0px 0px 1px #AAA;
 }
+
 a:hover {
   color: #B11;
   text-shadow: 0px 0px 4px #AAA;
+}
+
+.clear-both {
+  clear: both;
 }
 
 .navbar-inner .container {
