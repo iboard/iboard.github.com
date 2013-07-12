@@ -1,3 +1,10 @@
+h1 { font: 300 2em Helvetica; }
+h2 { font: 100 2em Helvetica; }
+h3 { font: 300 1.5em Helvetica; }
+h4 { font: 100 1.5em Helvetica; }
+h5 { font: 100 1.2em Helvetica; }
+h6 { font: 300 1.1em Helvetica; }
+
 .navbar-inner .container {
   margin-left: 2em;
   margin-right: 2em;
@@ -22,3 +29,15 @@
   background: url(http://dav.iboard.cc/container/andi_altendorfer_background_blur.png);
 }
 
+.sidebar-top {
+  font: 100 1em Helvetica;
+  background: #eee;
+  padding: 2em;
+}
+
+.sidebar-bottom {
+  font: 100 1em Helvetica;
+  background: #444;
+  color: #eee;
+  padding: 2em;
+}
