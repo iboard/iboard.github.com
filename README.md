@@ -1,6 +1,8 @@
 iboard.github.com
 =================
 
+[iboard.github.io](http://iboard.github.io)
+
 This is the source to generate my github-page `iboard.github.com`.
 
 You can easily 
