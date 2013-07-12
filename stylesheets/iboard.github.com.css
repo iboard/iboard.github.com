@@ -4,6 +4,7 @@ h3 { font: 300 1.5em Helvetica; }
 h4 { font: 100 1.5em Helvetica; }
 h5 { font: 100 1.2em Helvetica; }
 h6 { font: 300 1.1em Helvetica; }
+a  { color: #321; }
 
 .navbar-inner .container {
   margin-left: 2em;
@@ -30,8 +31,10 @@ h6 { font: 300 1.1em Helvetica; }
 }
 
 .bird-bg {
+  padding: 2em;
   min-height: 450px;
-  background: url(http://dav.iboard.cc/container/bird_background.png);
+  border-radius: 0.25em;
+  background: url(http://dav.iboard.cc/container/birds_background.png);
 }
 
 .sidebar-top {
