@@ -29,6 +29,11 @@ h6 { font: 300 1.1em Helvetica; }
   background: url(http://dav.iboard.cc/container/andi_altendorfer_background_blur.png);
 }
 
+.bird-bg {
+  min-height: 450px;
+  background: url(http://dav.iboard.cc/container/bird_background.png);
+}
+
 .sidebar-top {
   font: 100 1em Helvetica;
   background: #eee;
