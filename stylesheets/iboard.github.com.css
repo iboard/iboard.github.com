@@ -25,13 +25,15 @@ a:hover {
 }
 
 #footer {
-  padding-top: 40px;
-  padding-left: 40px;
-}
-
-#footer a {
-  text-decoration: none;
-  color: #ddd;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  font-size: 0.75em;
+  padding-top: 3em;
+  padding-left: 1em;
+  a {
+    color: #888;
+    text-shadow: none;
 }
 
 .nav > li > a {
@@ -62,3 +64,4 @@ a:hover {
   color: #eee;
   padding: 2em;
 }
+
