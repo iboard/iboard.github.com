@@ -31,9 +31,6 @@ a:hover {
   font-size: 0.75em;
   padding-top: 3em;
   padding-left: 1em;
-  a {
-    color: #888;
-    text-shadow: none;
 }
 
 .nav > li > a {
@@ -54,14 +51,14 @@ a:hover {
 
 .sidebar-top {
   font: 100 1em Helvetica;
-  background: #eee;
+  background: #eee !important;
   padding: 2em;
 }
 
 .sidebar-bottom {
   font: 100 1em Helvetica;
-  background: #444;
-  color: #eee;
+  background: #444 !important;
+  color: #eee !important;
   padding: 2em;
 }
 
