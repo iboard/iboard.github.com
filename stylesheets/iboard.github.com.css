@@ -6,7 +6,7 @@ h5 { font: 100 1.2em Helvetica; }
 h6 { font: 300 1.1em Helvetica; }
 
 a  {
-  color: #222;
+  color: rgb(44109154);
 }
 
 a:hover {
@@ -39,14 +39,13 @@ a:hover {
 .andi-bg {
   min-height: 450px;
   background: url(http://dav.iboard.cc/container/andi_altendorfer_background_blur.png);
-  /*background: rgb(200,200,200);*/
 }
 
 .bird-bg {
   padding: 2em;
   min-height: 450px;
   border-radius: 0.25em;
-  /*background: url(http://dav.iboard.cc/container/birds_background.png);*/
+  background: url(http://dav.iboard.cc/container/birds_background.png);
 }
 
 .sidebar-top {
