@@ -14,7 +14,8 @@ end
 
 def link_to file, target=nil
   name = file.gsub(/\.haml\.erb/,'')
-  "<a href='#{name}.html' #{target ? 'target=#{target}' : ''}>#{File.basename(name)}</a>"
+  _target = target ? "target='#{target}'" : ""
+  "<a href='#{name}.html' #{_target}>#{File.basename(name)}</a>"
 end
 
 def make_file(file)
