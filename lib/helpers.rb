@@ -12,9 +12,9 @@ def relative_root_path(to)
   end
 end
 
-def link_to file
+def link_to file, target=nil
   name = file.gsub(/\.haml\.erb/,'')
-  "<a href='#{name}.html'>#{File.basename(name)}</a>"
+  "<a href='#{name}.html' #{target ? 'target=#{target}' : ''}>#{File.basename(name)}</a>"
 end
 
 def make_file(file)
