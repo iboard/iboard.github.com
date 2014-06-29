@@ -52,12 +52,56 @@ a:hover {
   font: 100 1em Helvetica;
   background: #eee !important;
   padding: 2em;
+  margin: 0px!important;
 }
 
 .sidebar-bottom {
   font: 100 1em Helvetica;
   background: #444 !important;
-  color: #eee !important;
   padding: 2em;
+  color: #eee !important;
+  margin: 0px!important;
+}
+
+.paragraphed {
+  padding-top: 1.2em;
+  list-style-type: none;
+}
+
+.centered {
+  text-align: center;
+}
+
+.gap-top {
+  margin-top: 2em;
+}
+/*!
+ * Bootstrap Responsive v2.0.3
+ */
+
+@media (max-width: 767px) {
+  .sidebar-right {
+    margin-top: 2em;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {}
+@media (max-width: 480px) {}
+@media (max-width: 767px) {
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .sidebar-right {
+    position: relative;
+    top: -79px;
+    right: -20px;
+  }
+}
+@media (min-width: 1200px) {}
+@media (max-width: 979px) {}
+@media (min-width: 980px) {
+  .sidebar-right {
+    position: relative;
+    top: -19px;
+    right: -20px;
+  }
 }
 
