@@ -50,7 +50,7 @@ def write_index(yield_block=nil,output_to=nil)
                          .gsub(/__HERO_UNIT__/, yield_block ? yield_block : hero.render)
                          .gsub(/__SIDEBAR_TOP__/, sb_top.render)
                          .gsub(/__SIDEBAR_BOTTOM__/, sb_bottom.render)
-                         .gsub(/__MAIN_MENU__/, main_menu.render)
+                         .gsub(/__MAIN_MENU__/, main_menu.render(locals: { current_page: output_to}))
 
   output_to ||= File.expand_path('../../index.html', __FILE__)
   index = File.new(output_to, "w")
