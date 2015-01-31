@@ -1,9 +1,10 @@
 .sidebar-bottom
   %h3 License
-  %p 
+  %p
     All my public repositories on Github can be used
     under the terms of the MIT-license.
     %br/
     No warranty.
   %signature
-    %em – Andreas Altendorfer, May <%= Time.now.year.to_s %>
+    = 'last updated: '
+    = Time.now.strftime('%B %Y')
