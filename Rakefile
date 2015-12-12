@@ -19,8 +19,9 @@ def build_index
   puts "# WRITE INDEX ..."
   clear_html_files
   write_index
+  puts ""
   Dir.glob("pages/*haml.erb") do |file|
-    printf "# MAKE FILE #{file}"
+    printf "# MAKE FILE #{file} "
     make_file(file)
     puts ""
   end

@@ -1,13 +1,15 @@
 # -*- encoding : utf-8 -*-
 
+require_relative "./page_parts"
+
 # Helpers
 def relative_root_path(to)
   return '' unless to
   if to =~ /^pages/
-    printf "route to page #{to}"
+    printf "route to page #{to} "
     "../"
   else
-    printf "route to root #{to.inspect}"
+    printf "route to root #{to.inspect} "
     ""
   end
 end
@@ -20,8 +22,8 @@ end
 
 def make_file(file)
   outfile = file.split(/\./)[0..-3].join(".")+".html"
-  printf " => #{outfile}"
-  printf " ROOT=#{relative_root_path(outfile)}"
+  printf " => #{outfile} "
+  printf "ROOT=#{relative_root_path(outfile)} "
   if !File.exist?(outfile) || File::mtime(file) > File::mtime(outfile)
     main = Haml::Engine.new(File.read(file))
     erb = ERB.new(main.render)
@@ -30,32 +32,49 @@ def make_file(file)
   end
 end
 
+
 def clear_html_files
-  Dir.foreach( File.expand_path('../../pages',__FILE__) ) do |file|
-    if file =~ /html$/
-      File.unlink File.expand_path('../../pages/'+file, __FILE__)
-    end
+  with_each_html_file do |file|
+    puts "Remove file #{file}"
+    File.unlink file
   end
 end
 
+
 def write_index(yield_block=nil,output_to=nil)
-  index_template = File.read(File.expand_path('../../templates/index.html',__FILE__))
+  index_template = html_index_template
+  buffer = assamble_index_haml(index_template, PageParts.new, yield_block, output_to)
 
-  main = Haml::Engine.new(File.read(File.expand_path('../../templates/index.haml.erb',__FILE__)))
-  hero = Haml::Engine.new(File.read(File.expand_path('../../templates/_hero.haml.erb',__FILE__)))
-  main_menu = Haml::Engine.new(File.read(File.expand_path('../../templates/menu_main.haml.erb',__FILE__)))
-  sb_top=Haml::Engine.new(File.read(File.expand_path('../../templates/_sidebar_top.haml.erb',__FILE__)))
-  sb_bottom=Haml::Engine.new(File.read(File.expand_path('../../templates/_sidebar_bottom.haml.erb',__FILE__)))
-  buffer = index_template.gsub(/__YIELD__/, (yield_block ? '' : main.render))
-                         .gsub(/__HERO_UNIT__/, yield_block ? yield_block : hero.render)
-                         .gsub(/__SIDEBAR_TOP__/, sb_top.render)
-                         .gsub(/__SIDEBAR_BOTTOM__/, sb_bottom.render)
-                         .gsub(/__MAIN_MENU__/, main_menu.render(locals: { current_page: output_to}))
-
-  output_to ||= File.expand_path('../../index.html', __FILE__)
+  output_to ||= index_html_file
   index = File.new(output_to, "w")
   result = ERB.new(buffer.gsub(/__ROOTPATH__/, relative_root_path(output_to)))
   @file = __FILE__
   index << result.result(binding)
   index.close
 end
+
+private
+
+def assamble_index_haml(index_template, page_parts, yield_block, output_to)
+  index_template.gsub(/__YIELD__/, (yield_block ? '' : page_parts.main.render))
+      .gsub(/__HERO_UNIT__/, yield_block ? yield_block : page_parts.hero.render)
+      .gsub(/__SIDEBAR_TOP__/, page_parts.sb_top.render)
+      .gsub(/__SIDEBAR_BOTTOM__/, page_parts.sb_bottom.render)
+      .gsub(/__MAIN_MENU__/, page_parts.main_menu.render(locals: {current_page: output_to}))
+end
+
+def with_each_html_file
+  path = File.expand_path('../../pages', __FILE__)
+  Dir.foreach(path) do |file|
+    yield( File.join(path,file) ) if file =~ /html$/
+  end
+end
+
+def index_html_file
+  File.expand_path('../../index.html', __FILE__)
+end
+
+def html_index_template
+  File.read(File.expand_path('../../templates/index.html', __FILE__))
+end
+
