@@ -6,7 +6,7 @@ iboard.github.com
 
 [iboard.github.io](http://iboard.github.io)
 
-This is the source to generate my github-page `iboard.github.com`.
+This is the source to generate my github-page `iboard.github.io`.
 
 You can easily
 
