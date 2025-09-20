@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elixir on Andi Altendorfer</title>
+    <link>https://iboard.github.io/tags/elixir/</link>
+    <description>Recent content in Elixir on Andi Altendorfer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Andi Altendorfer</copyright>
+    <lastBuildDate>Fri, 19 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://iboard.github.io/tags/elixir/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I&#39;m All In to Elixir and Phoenix</title>
+      <link>https://iboard.github.io/posts/2025-09-19-why-i-use-elixir-and-phoenix/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-19-why-i-use-elixir-and-phoenix/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/elixir-phoenix-banner.svg&#34; alt=&#34;Elixir Phoenix My Go-To Stack&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been a software developer for a long time, and I&amp;rsquo;ve worked with many different languages and frameworks over the years. But for the past few years, I&amp;rsquo;ve found myself reaching for the same two tools for almost every project: Elixir and Phoenix.&lt;/p&gt;&#xA;&lt;p&gt;In this post, I want to share some of the reasons why I&amp;rsquo;ve fallen in love with this powerful combination, and why I think it&amp;rsquo;s a great choice for modern web development.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>#elixireu we are coming 😀</title>
+      <link>https://iboard.github.io/archives/posts/2025-05-19-elixireu-we-are-coming/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/archives/posts/2025-05-19-elixireu-we-are-coming/</guid>
+      <description>&lt;p&gt;#elixireu we are coming 😀&#xA;@josevalim.bsky.social&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Let’s start the 2nd day!</title>
+      <link>https://iboard.github.io/archives/posts/2025-05-19-lets-start-the-2nd-day/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/archives/posts/2025-05-19-lets-start-the-2nd-day/</guid>
+      <description>&lt;p&gt;Let’s start the 2nd day!&#xA;#ElixirConfEU&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Check out and play around with DaisyUI</title>
+      <link>https://iboard.github.io/posts/2025-04-19-elixirlang-phoenixframework-this-weekend-i-had-time-to-check-out-and-play-around-with-daisyui/</link>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-04-19-elixirlang-phoenixframework-this-weekend-i-had-time-to-check-out-and-play-around-with-daisyui/</guid>
+      <description>&lt;p&gt;#elixirlang #phoenixframework This weekend I had time to check out and play around with DaisyUI, after listening to Phoenix&amp;rsquo;s #DaisyUI Facelift (podcast.thinkingelixir.com/247) the last days.&lt;/p&gt;&#xA;&lt;p&gt;I liked it at the first try, although I couldn&amp;rsquo;t find a &amp;lsquo;&amp;ndash;migrate-all-older-projects&amp;rsquo; option.&lt;/p&gt;&#xA;&lt;p&gt;Phoenix&amp;rsquo;s DaisyUI Facelift&#xA;News includes Phoenix adding DaisyUI, Erlang/OTP 28.0-rc2 with priority messages, LiveViewPortal for embedding LiveView in any website, upcoming Elixir improvements to double dependency compilation sp&amp;hellip;&#xA;podcast.thinkingelixir.com&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ElixirConfEU conference in Krakow</title>
+      <link>https://iboard.github.io/posts/2025-04-19-yesterday-i-ordered-two-tickets-for-the-elixireu-conference-in-krakow/</link>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-04-19-yesterday-i-ordered-two-tickets-for-the-elixireu-conference-in-krakow/</guid>
+      <description>&lt;p&gt;Yesterday, I ordered two tickets for the #ElixirEU conference in Krakow for&#xA;@oscarolbe.bsky.social&#xA;and myself. I am really looking forward to the two days and the journey on the night train from Linz to Krakow. See you at the conference. &lt;a href=&#34;https://www.elixirconf.eu&#34;&gt;www.elixirconf.eu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ElixirConf EU 2025 on 15-16 May, Kraków &amp;amp; Virtual&#xA;&lt;a href=&#34;https://www.elixirconf.eu&#34;&gt;www.elixirconf.eu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/elixir-conf-eu.jpg&#34; alt=&#34;ElixirConf EU Logo&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thank you to all contributors to #elixirlang and #phoenixframework</title>
+      <link>https://iboard.github.io/posts/2025-01-19-thank-you-elixir-and-phoenix-contributors/</link>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-01-19-thank-you-elixir-and-phoenix-contributors/</guid>
+      <description>&lt;p&gt;Let me join to send a big thank you to all contributors to #elixirlang and #phoenixframework. I’m working with what you’re doing every day and can’t express how happy I’m with that environment. 👍&lt;/p&gt;&#xA;&lt;p&gt;‪Zach Daniel‬&#xA;‪@zachdaniel.dev‬&#xA;· 8mo&#xA;Sometimes it’s easy to forget all the cool things that Phoenix makes easy for #ElixirLang devs, especially when we’re used to it! Big shout out to Chris McCord and @josevalim.bsky.social. Pubsub and presence are magically simple tools that make a massive difference to have right at our&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

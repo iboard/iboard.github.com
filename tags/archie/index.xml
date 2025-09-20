@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archie on Andi Altendorfer</title>
+    <link>https://iboard.github.io/tags/archie/</link>
+    <description>Recent content in Archie on Andi Altendorfer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Andi Altendorfer</copyright>
+    <lastBuildDate>Tue, 16 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://iboard.github.io/tags/archie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Theme ARCHIE</title>
+      <link>https://iboard.github.io/about/the-hugo-theme-archie/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/about/the-hugo-theme-archie/</guid>
+      <description>&lt;h1 id=&#34;archie---hugo-theme&#34;&gt;Archie - Hugo theme&lt;/h1&gt;&#xA;&lt;p&gt;Archie is a minimal and clean theme for hugo with a markdown-ish UI.&lt;/p&gt;&#xA;&lt;p&gt;Forked from &lt;a href=&#34;https://github.com/vividvilla/ezhil&#34;&gt;Ezhil Theme&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://athul.github.io/archie/&#34;&gt;Check the Demo&lt;/a&gt; hosted on GitHub Pages :smile: . You can find the source code to that in the &lt;code&gt;site&lt;/code&gt; branch of this repository&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/theme.png&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://iboard.github.io/images/archie-dark.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;feature&#34;&gt;Feature&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Google Analytics Script&lt;/li&gt;&#xA;&lt;li&gt;Callouts&lt;/li&gt;&#xA;&lt;li&gt;Tags&lt;/li&gt;&#xA;&lt;li&gt;Auto Dark Mode(based on system theme)&lt;/li&gt;&#xA;&lt;li&gt;Dark/Light Mode toggle&lt;/li&gt;&#xA;&lt;li&gt;tl:dr; frontamatter&lt;/li&gt;&#xA;&lt;li&gt;Table of contents&lt;/li&gt;&#xA;&lt;li&gt;Cache busting for CSS files&lt;/li&gt;&#xA;&lt;li&gt;Disqus Comments&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;&#xA;&lt;p&gt;In your Hugo website directory, create a new folder named theme and clone the repo&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

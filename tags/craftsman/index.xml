@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Craftsman on Andi Altendorfer</title>
+    <link>https://iboard.github.io/tags/craftsman/</link>
+    <description>Recent content in Craftsman on Andi Altendorfer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Andi Altendorfer</copyright>
+    <lastBuildDate>Fri, 19 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://iboard.github.io/tags/craftsman/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Development</title>
+      <link>https://iboard.github.io/craftsman/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/craftsman/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/craftsman-banner.svg&#34; alt=&#34;Software Craftsmanship Banner&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;⚠️&#xA;&lt;strong&gt;WARNING&lt;/strong&gt;: the following content was generated, using AI!&#xA;So, some things maybe just wrong.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;In this series of articles, we will explore the world of Software Craftsmanship. We will delve into the principles and practices that can help you become a better software developer, and create software that is not only functional but also a joy to work with.&lt;/p&gt;&#xA;&lt;p&gt;We will cover topics such as clean code, Test-Driven Development (TDD), refactoring, and more. Whether you are a seasoned developer or just starting your journey, I hope you will find something valuable in this series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Way of the Software Craftsman: An Introduction</title>
+      <link>https://iboard.github.io/craftsman/01-introduction-to-software-craftsmanship/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/craftsman/01-introduction-to-software-craftsmanship/</guid>
+      <description>&lt;p&gt;In the ever-evolving world of software development, it&amp;rsquo;s easy to get caught up in the latest frameworks, languages, and tools. While these are important, they are only one side of the coin. The other side is the mindset and professionalism we bring to our work. This is the essence of Software Craftsmanship.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-software-craftsmanship&#34;&gt;What is Software Craftsmanship?&lt;/h2&gt;&#xA;&lt;p&gt;Software Craftsmanship is a movement that promotes the idea of software development as a skilled craft. It&amp;rsquo;s about taking pride in our work, and striving to create software that is not only functional but also well-crafted, maintainable, and a joy to work with.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clean Code: The Foundation of a Solid Product</title>
+      <link>https://iboard.github.io/craftsman/02-the-importance-of-clean-code/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/craftsman/02-the-importance-of-clean-code/</guid>
+      <description>&lt;p&gt;In the first article of this series, we introduced the concept of Software Craftsmanship. Now, let&amp;rsquo;s dive into one of the most fundamental practices of a software craftsman: writing clean code.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-clean-code&#34;&gt;What is Clean Code?&lt;/h2&gt;&#xA;&lt;p&gt;Clean code is code that is easy to read, understand, and maintain. It&amp;rsquo;s code that is self-documenting, and that clearly expresses its intent. As Robert C. Martin says in his book &amp;ldquo;Clean Code: A Handbook of Agile Software Craftsmanship&amp;rdquo;, clean code is &amp;ldquo;code that has been taken care of.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Professional Developer: Taking Ownership of Your Work</title>
+      <link>https://iboard.github.io/craftsman/03-professionalism/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/craftsman/03-professionalism/</guid>
+      <description>&lt;p&gt;In our ongoing series on Software Craftsmanship, we&amp;rsquo;ve explored the importance of clean code and the craftsman&amp;rsquo;s mindset. Now, let&amp;rsquo;s delve into a crucial aspect of that mindset: professionalism.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-professionalism-in-software-development&#34;&gt;What is Professionalism in Software Development?&lt;/h2&gt;&#xA;&lt;p&gt;Professionalism in software development is about more than just writing code that works. It&amp;rsquo;s about taking ownership of your work, being accountable for the quality of the software you produce, and conducting yourself in a way that inspires trust and confidence from your team and stakeholders.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Lifelong Learner: Staying Sharp in a Changing World</title>
+      <link>https://iboard.github.io/craftsman/04-continuous-learning/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/craftsman/04-continuous-learning/</guid>
+      <description>&lt;p&gt;In the world of software development, the only constant is change. New languages, frameworks, and technologies are emerging all the time. To stay relevant and effective as a software craftsman, you must be a lifelong learner.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-importance-of-continuous-learning&#34;&gt;The Importance of Continuous Learning&lt;/h2&gt;&#xA;&lt;p&gt;Continuous learning is not just about keeping up with the latest trends. It&amp;rsquo;s about honing your skills, deepening your understanding of fundamental principles, and constantly striving to become a better developer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Collaborative Craftsman: Working Together...</title>
+      <link>https://iboard.github.io/craftsman/05-collaboration/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/craftsman/05-collaboration/</guid>
+      <description>&lt;p&gt;Software development is rarely a solitary endeavor. In today&amp;rsquo;s complex projects, collaboration is not just a nice-to-have; it&amp;rsquo;s a fundamental requirement for success. A true software craftsman understands that building great software is a team sport.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-collaboration-matters&#34;&gt;Why Collaboration Matters&lt;/h2&gt;&#xA;&lt;p&gt;Effective collaboration brings numerous benefits to a software project:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Shared Understanding:&lt;/strong&gt; When team members work closely together, they develop a shared understanding of the project goals, requirements, and technical challenges. This reduces misunderstandings and leads to better solutions.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Improved Quality:&lt;/strong&gt; Collaboration fosters peer review, knowledge sharing, and constructive feedback. This helps catch errors early, improves code quality, and leads to more robust software.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Faster Problem Solving:&lt;/strong&gt; Two heads are often better than one. When faced with a difficult problem, a collaborative team can brainstorm solutions, leverage diverse perspectives, and arrive at a solution more quickly.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Knowledge Transfer:&lt;/strong&gt; Collaboration is a powerful mechanism for knowledge transfer. Junior developers can learn from experienced mentors, and everyone can benefit from sharing their expertise.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Increased Morale:&lt;/strong&gt; Working together effectively can be a highly rewarding experience. A collaborative environment fosters a sense of camaraderie, shared purpose, and mutual respect, leading to higher team morale and job satisfaction.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tips-for-effective-collaboration&#34;&gt;Tips for Effective Collaboration&lt;/h2&gt;&#xA;&lt;p&gt;Here are some practical tips for fostering a collaborative environment:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What Does Clean Code Look Like? Insights from the Experts</title>
+      <link>https://iboard.github.io/craftsman/05-what-is-clean-code/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/craftsman/05-what-is-clean-code/</guid>
+      <description>&lt;p&gt;In our journey to becoming better software craftsmen, we&amp;rsquo;ve talked a lot about the importance of clean code. But what does &amp;ldquo;clean code&amp;rdquo; actually mean? To get a better understanding, let&amp;rsquo;s turn to some of the most respected figures in the software development industry and see what they have to say.&lt;/p&gt;&#xA;&lt;h2 id=&#34;robert-c-martin-uncle-bob&#34;&gt;Robert C. Martin (Uncle Bob)&lt;/h2&gt;&#xA;&lt;p&gt;Robert C. Martin, also known as &amp;ldquo;Uncle Bob,&amp;rdquo; is the author of the influential book &amp;ldquo;Clean Code: A Handbook of Agile Software Craftsmanship.&amp;rdquo; He has many insightful things to say about clean code, but one of my favorites is:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
