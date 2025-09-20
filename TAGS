@@ -1,7 +1,0 @@
-
-/Users/aa/Development/iboard.github.com/lib/helpers.rb,231
-def relative_root_path(to)relative_root_path4,38
-def link_to filelink_to15,216
-def make_file(file)make_file20,329
-def clear_html_filesclear_html_files32,700
-def write_index(yield_block=nil,output_to=nil)write_index40,897

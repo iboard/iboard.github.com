@@ -1,6 +1,0 @@
-%ul.nav
-  %li <a href="/" target="_top">Home</a>
-  - Dir.foreach(File.expand_path('../pages',__FILE__)) do |page|
-    - unless File::directory?(File.expand_path('../pages/'+page,__FILE__))
-      - if page.split(/\./)[-2..-1] == ['haml','erb']
-        %li= link_to '__ROOTPATH__pages/'+page, "_top"
