@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Andi Altendorfer</title>
+    <link>https://iboard.github.io/posts/</link>
+    <description>Recent content in Posts on Andi Altendorfer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Andi Altendorfer</copyright>
+    <lastBuildDate>Fri, 19 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://iboard.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello, and welcome (Post#0)</title>
+      <link>https://iboard.github.io/posts/202509151116-welcome-post/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/202509151116-welcome-post/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/andi256x256.jpg&#34; alt=&#34;Andi Altendorfer&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m so incredibly happy to finally have my own little corner of the internet. For a long time, I&amp;rsquo;ve wanted a space where I could share my thoughts, projects, and whatever else comes to mind, without the distractions of social media. After a lot of tinkering, I&amp;rsquo;ve built this blog using Hugo, and I couldn&amp;rsquo;t be more excited to start publishing here.&lt;/p&gt;&#xA;&lt;p&gt;This is a space for me to write freely and connect with a community that shares similar interests. I&amp;rsquo;m glad you&amp;rsquo;ve stopped by, and I hope you&amp;rsquo;ll stick around. You can expect to find posts on [Your topics here, e.g., web development, hiking, creative writing], but really, it&amp;rsquo;s just a place for whatever new ideas I have.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Review of the Remarkable Paper Pro</title>
+      <link>https://iboard.github.io/posts/2025-09-19-remarkable-paper-pro-review/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-19-remarkable-paper-pro-review/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been using the &lt;a href=&#34;https://remarkable.com&#34;&gt;Remarkable Paper Pro&lt;/a&gt; since 2021, and it has become an indispensable part of my daily routine. As someone who loves the feel of writing on paper but needs the convenience of digital notes, the Remarkable has been a game-changer.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/remarkable_paper_pro.png&#34; alt=&#34;Remarkable Paper Pro&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-writing-experience&#34;&gt;The Writing Experience&lt;/h2&gt;&#xA;&lt;p&gt;The first thing that struck me about the Remarkable is how natural it feels to write on. The textured surface of the screen and the pressure-sensitive stylus create an experience that is remarkably close to writing on paper. There&amp;rsquo;s no lag, and the &amp;ldquo;ink&amp;rdquo; flows smoothly from the stylus. It&amp;rsquo;s a joy to use for everything from jotting down quick notes to long-form writing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why I&#39;m All In to Elixir and Phoenix</title>
+      <link>https://iboard.github.io/posts/2025-09-19-why-i-use-elixir-and-phoenix/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-19-why-i-use-elixir-and-phoenix/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/elixir-phoenix-banner.svg&#34; alt=&#34;Elixir Phoenix My Go-To Stack&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been a software developer for a long time, and I&amp;rsquo;ve worked with many different languages and frameworks over the years. But for the past few years, I&amp;rsquo;ve found myself reaching for the same two tools for almost every project: Elixir and Phoenix.&lt;/p&gt;&#xA;&lt;p&gt;In this post, I want to share some of the reasons why I&amp;rsquo;ve fallen in love with this powerful combination, and why I think it&amp;rsquo;s a great choice for modern web development.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>@kentbeck.com &#39;s &#34;Tidy first?&#34;</title>
+      <link>https://iboard.github.io/posts/2025-04-19-yesterday-i-attended-kentbeck-com-s-tidy-first/</link>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-04-19-yesterday-i-attended-kentbeck-com-s-tidy-first/</guid>
+      <description>&lt;p&gt;Yesterday I attended&#xA;@kentbeck.com&#xA;&amp;rsquo;s &amp;ldquo;Tidy first?&amp;rdquo; (en.wikipedia.org/wiki/Special&amp;hellip;) webinar on #acmtechtalk ➛ &amp;hellip; and enjoyed it as a pretty well refresh about #xtremeprogramming and #refactoring and what makes #swdevelopment productive and fun 👏 thank you!&#xA;Book sources - Wikipedia&#xA;en.wikipedia.org&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Kent_Beck_no_Workshop_Mapping_XP.jpg/500px-Kent_Beck_no_Workshop_Mapping_XP.jpg&#34; alt=&#34;Kent Beck&#34;&gt;&lt;br&gt;&#xA;&lt;em&gt;Source: Wikipedia&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Check out and play around with DaisyUI</title>
+      <link>https://iboard.github.io/posts/2025-04-19-elixirlang-phoenixframework-this-weekend-i-had-time-to-check-out-and-play-around-with-daisyui/</link>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-04-19-elixirlang-phoenixframework-this-weekend-i-had-time-to-check-out-and-play-around-with-daisyui/</guid>
+      <description>&lt;p&gt;#elixirlang #phoenixframework This weekend I had time to check out and play around with DaisyUI, after listening to Phoenix&amp;rsquo;s #DaisyUI Facelift (podcast.thinkingelixir.com/247) the last days.&lt;/p&gt;&#xA;&lt;p&gt;I liked it at the first try, although I couldn&amp;rsquo;t find a &amp;lsquo;&amp;ndash;migrate-all-older-projects&amp;rsquo; option.&lt;/p&gt;&#xA;&lt;p&gt;Phoenix&amp;rsquo;s DaisyUI Facelift&#xA;News includes Phoenix adding DaisyUI, Erlang/OTP 28.0-rc2 with priority messages, LiveViewPortal for embedding LiveView in any website, upcoming Elixir improvements to double dependency compilation sp&amp;hellip;&#xA;podcast.thinkingelixir.com&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ElixirConfEU conference in Krakow</title>
+      <link>https://iboard.github.io/posts/2025-04-19-yesterday-i-ordered-two-tickets-for-the-elixireu-conference-in-krakow/</link>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-04-19-yesterday-i-ordered-two-tickets-for-the-elixireu-conference-in-krakow/</guid>
+      <description>&lt;p&gt;Yesterday, I ordered two tickets for the #ElixirEU conference in Krakow for&#xA;@oscarolbe.bsky.social&#xA;and myself. I am really looking forward to the two days and the journey on the night train from Linz to Krakow. See you at the conference. &lt;a href=&#34;https://www.elixirconf.eu&#34;&gt;www.elixirconf.eu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ElixirConf EU 2025 on 15-16 May, Kraków &amp;amp; Virtual&#xA;&lt;a href=&#34;https://www.elixirconf.eu&#34;&gt;www.elixirconf.eu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/elixir-conf-eu.jpg&#34; alt=&#34;ElixirConf EU Logo&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Slow code?</title>
+      <link>https://iboard.github.io/posts/2025-04-19-slowcode/</link>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-04-19-slowcode/</guid>
+      <description>&lt;p&gt;On our servers, a lot of routine jobs run on the first of every month. Today, monitoring the log files feels particularly slow. Maybe it&amp;rsquo;s because it&amp;rsquo;s not just the first of the month, but also the start of a new quarter?&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/snail.jpg&#34; alt=&#34;Picture of a snail&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Image Description&lt;/em&gt;&lt;br&gt;&#xA;A close-up of a snail making its way along a muddy path, its shell glistening with moisture, surrounded by fresh green grass and the textures of the earth.&#xA;ALT&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>We Are All Living in George Orwell’s World Now</title>
+      <link>https://iboard.github.io/posts/2025-03-29-we-are-all-living-in-george-orwells-world-now/</link>
+      <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-03-29-we-are-all-living-in-george-orwells-world-now/</guid>
+      <description>&lt;p&gt;We Are All Living in George Orwell’s World Now &lt;a href=&#34;https://www.nytimes.com/2025/03/29/m&#34;&gt;www.nytimes.com/2025/03/29/m&lt;/a&gt;&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;A good #morningread for this Monday&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/1984.jpg&#34; alt=&#34;1984 Book Cover&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;We Are All Living in George Orwell’s World Now&#xA;He is easy to quote, but what would the iconoclastic British socialist really have thought about politics today?&#xA;&lt;a href=&#34;https://www.nytimes.com&#34;&gt;www.nytimes.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>😥 R.I.P. Garth Hudson (The Band)</title>
+      <link>https://iboard.github.io/posts/2025-01-19-rip-garth-hudson/</link>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-01-19-rip-garth-hudson/</guid>
+      <description>&lt;p&gt;😥&lt;/p&gt;&#xA;&lt;p&gt;‪The New York Times‬&#xA;‪@nytimes.com‬&#xA;· 8mo&#xA;Breaking News: Garth Hudson, the last surviving original member of the Band, died in Woodstock, New York, at 87. The Band was one of the most influential rock groups of the 1960s and ’70s.&lt;/p&gt;&#xA;&lt;p&gt;Garth Hudson, Multifaceted Musician With the Band, Dies at 87&#xA;He was the last surviving original member of one of the most influential groups of the 1960s and ’70s, with its blend of rock, r&amp;amp;b and country.&#xA;&lt;a href=&#34;https://www.nytimes.com&#34;&gt;www.nytimes.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thank you to all contributors to #elixirlang and #phoenixframework</title>
+      <link>https://iboard.github.io/posts/2025-01-19-thank-you-elixir-and-phoenix-contributors/</link>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-01-19-thank-you-elixir-and-phoenix-contributors/</guid>
+      <description>&lt;p&gt;Let me join to send a big thank you to all contributors to #elixirlang and #phoenixframework. I’m working with what you’re doing every day and can’t express how happy I’m with that environment. 👍&lt;/p&gt;&#xA;&lt;p&gt;‪Zach Daniel‬&#xA;‪@zachdaniel.dev‬&#xA;· 8mo&#xA;Sometimes it’s easy to forget all the cool things that Phoenix makes easy for #ElixirLang devs, especially when we’re used to it! Big shout out to Chris McCord and @josevalim.bsky.social. Pubsub and presence are magically simple tools that make a massive difference to have right at our&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gratulation zu ooe.kpoe.at/article.php/... #solarenergy</title>
+      <link>https://iboard.github.io/posts/2025-01-15-gratulation-solarenergy/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-01-15-gratulation-solarenergy/</guid>
+      <description>&lt;p&gt;@kpoelinz.bsky.social&#xA;Gratulation zu ooe.kpoe.at/article.php/&amp;hellip; #solarenergy&#xA;&lt;a href=&#34;https://ooe.kpoe.at/article.php/20250115193713493&#34;&gt;https://ooe.kpoe.at/article.php/20250115193713493&lt;/a&gt;&#xA;ooe.kpoe.at&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ooe.kpoe.at/images/articles/20250115193713493_1.jpg&#34; alt=&#34;Solor energy on the roof of a house&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Early X-mas gift</title>
+      <link>https://iboard.github.io/posts/2024-12-19-early-xmas-gift/</link>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2024-12-19-early-xmas-gift/</guid>
+      <description>&lt;p&gt;Early X-mas gift: Does anyone know the feeling, as a developer, of being able to shut down the server for a client who was just annoying, because they finally canceled? 🕺&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/20250920-cartoon.png&#34; alt=&#34;Early X-mas gift: Does anyone know the feeling, as a developer, of being able to shut down the server for a client who was just annoying, because they finally canceled? 🕺&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I’m proudly announcing that I just deactivated my X-account.</title>
+      <link>https://iboard.github.io/posts/2024-12-19-deactivated-x-account/</link>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2024-12-19-deactivated-x-account/</guid>
+      <description>&lt;p&gt;I’m proudly announcing that I just deactivated my X-account.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/bafkreieoxv7cypsdu77jtkzqrnkqy6rfejp3xn6a2mp3oa43fdzjouti5e.jpg&#34; alt=&#34;I’m proudly announcing that I just deactivated my X-account.&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ich werd’ morgen, Samstag 14.12.2024 auf einen #Punsch zum #KPÖ</title>
+      <link>https://iboard.github.io/posts/2024-12-14-punsch-kpoe/</link>
+      <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2024-12-14-punsch-kpoe/</guid>
+      <description>&lt;p&gt;Ich werd’ morgen, Samstag 14.12.2024 auf einen #Punsch zum #KPÖ&#xA;@kpoelinz.bsky.social&#xA;Infostand (Europastraße 12, Linz, 9-12h) schauen. Wer kommt mit?&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/bafkreig6agtsixdhpdsxa4gj4z6qqzdk7v57ddylsnofi6agawmz6lfh3m.jpg&#34; alt=&#34;Ich werd’ morgen, Samstag 14.12.2024 auf einen #Punsch zum #KPÖ&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Elke Kahr, gratuliere zur Bürgermeisterin des Jahres (&#39;23)</title>
+      <link>https://iboard.github.io/posts/2024-01-30-elke-kahr-buergermeisterin-des-jahres/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2024-01-30-elke-kahr-buergermeisterin-des-jahres/</guid>
+      <description>&lt;p&gt;Elke Kahr, gratuliere zur Bürgermeisterin des Jahres (&amp;lsquo;23)&#xA;Wahrlich eine verdiente Auszeichnung!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.derstandard.at/story/300000&#34;&gt;www.derstandard.at/story/300000&lt;/a&gt;&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/ELKE_KAHR_S.Weidinger_0164.jpg/500px-ELKE_KAHR_S.Weidinger_0164.jpg&#34; alt=&#34;Elke Kahr, gratuliere zur Bürgermeisterin des Jahres (&amp;lsquo;23)&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome at bluesky 🙂.</title>
+      <link>https://iboard.github.io/posts/2023-12-07-welcome-to-bluesky/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2023-12-07-welcome-to-bluesky/</guid>
+      <description>&lt;p&gt;Welcome! I’m happy leaving that old mess and start a new and clean ‘life’ here at bluesky 🙂.&lt;/p&gt;&#xA;&lt;p&gt;Have a nice and pleasant Christmas season!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/bafkreigqdf7irnrbcz6cchg4y4btqrri75gewf7jkt4tvpanij2pnwbsxy.jpg&#34; alt=&#34;Welcome! I’m happy leaving that old mess and start a new and clean ‘life’ here at bluesky 🙂.&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
