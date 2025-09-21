@@ -7,8 +7,29 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Andi Altendorfer</copyright>
-    <lastBuildDate>Fri, 19 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iboard.github.io/tags/elixir/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#hex Rate Limiting with &#39;bucketier&#39; in Elixir</title>
+      <link>https://iboard.github.io/posts/2025-09-21-bucketier/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-21-bucketier/</guid>
+      <description>&lt;p&gt;Rate limiting is an essential technique for protecting your application from abuse and ensuring fair usage. The &lt;code&gt;bucketier&lt;/code&gt; hex package provides a simple and effective way to implement rate limiting in your Elixir applications.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;bucketier&lt;/code&gt; is based on the token bucket algorithm, a popular method for rate limiting. It allows you to define rules for how many requests can be made in a given time period.&lt;/p&gt;&#xA;&lt;p&gt;The package is easy to set up and configure. You can define different rate limits for different parts of your application, giving you fine-grained control over how your resources are used.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>#hex The &#39;data_source&#39; Hex Package</title>
+      <link>https://iboard.github.io/posts/2025-09-21-data-source/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-21-data-source/</guid>
+      <description>&lt;p&gt;In the Elixir ecosystem, managing data access is a crucial part of building robust applications. The &lt;code&gt;data_source&lt;/code&gt; hex package aims to simplify this by providing a unified interface for interacting with various data sources.&lt;/p&gt;&#xA;&lt;p&gt;While Elixir has excellent tools like &lt;code&gt;Ecto&lt;/code&gt; for database access, &lt;code&gt;data_source&lt;/code&gt; can be useful in scenarios where you need to fetch data from different types of sources, not just databases. It provides a consistent API, making your code cleaner and easier to maintain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>#hex Working with Time in Elixir using &#39;timewrap&#39;</title>
+      <link>https://iboard.github.io/posts/2025-09-21-timewrap/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-21-timewrap/</guid>
+      <description>&lt;p&gt;Dealing with time in software development can be tricky. The &lt;code&gt;timewrap&lt;/code&gt; hex package for Elixir provides a convenient way to work with time-related operations, especially in testing.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;timewrap&lt;/code&gt; acts as a &amp;ldquo;Time-Wrapper&amp;rdquo; that allows you to access different time sources in Elixir and Erlang. One of its most powerful features is the ability to freeze and unfreeze timers. This is incredibly useful for writing deterministic tests for time-dependent code.&lt;/p&gt;&#xA;&lt;p&gt;Instead of relying on the system clock, you can use &lt;code&gt;timewrap&lt;/code&gt; to control the flow of time in your tests, making them more reliable and easier to reason about.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Why I&#39;m All In to Elixir and Phoenix</title>
       <link>https://iboard.github.io/posts/2025-09-19-why-i-use-elixir-and-phoenix/</link>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on Andi Altendorfer</title>
+    <link>https://iboard.github.io/tags/code/</link>
+    <description>Recent content in Code on Andi Altendorfer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Andi Altendorfer</copyright>
+    <lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://iboard.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#hex My public Hex Packages</title>
+      <link>https://iboard.github.io/posts/2025-09-21-tx-hexpackages/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-21-tx-hexpackages/</guid>
+      <description>&lt;p&gt;Today I stumbled upon my old Github repository called &lt;a href=&#34;https://github.com/iboard/hexpack-examples&#34;&gt;hexpack-examples&lt;/a&gt;. It demonstrates the usage of several useful Elixir hex packages. Let&amp;rsquo;s take a closer look at them.&lt;/p&gt;&#xA;&lt;p&gt;The repository provides examples for the following packages:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://iboard.github.io/posts/2025-09-21-data-source&#34;&gt;data_source&lt;/a&gt;&lt;/strong&gt;: This package provides a unified way to access data from various sources.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://iboard.github.io/posts/2025-09-21-bucketier&#34;&gt;bucketier&lt;/a&gt;&lt;/strong&gt;: A simple and effective rate-limiter.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://iboard.github.io/posts/2025-09-21-timewrap&#34;&gt;timewrap&lt;/a&gt;&lt;/strong&gt;: A package to handle time-related operations.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;exconfig&lt;/strong&gt;: A package to manage application configuration. (deprecated)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The repository is a great resource for learning how to use these packages in a real-world scenario. The examples are well-tested and provide a good starting point for integrating these packages into your own projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>#hex Rate Limiting with &#39;bucketier&#39; in Elixir</title>
+      <link>https://iboard.github.io/posts/2025-09-21-bucketier/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-21-bucketier/</guid>
+      <description>&lt;p&gt;Rate limiting is an essential technique for protecting your application from abuse and ensuring fair usage. The &lt;code&gt;bucketier&lt;/code&gt; hex package provides a simple and effective way to implement rate limiting in your Elixir applications.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;bucketier&lt;/code&gt; is based on the token bucket algorithm, a popular method for rate limiting. It allows you to define rules for how many requests can be made in a given time period.&lt;/p&gt;&#xA;&lt;p&gt;The package is easy to set up and configure. You can define different rate limits for different parts of your application, giving you fine-grained control over how your resources are used.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>#hex The &#39;data_source&#39; Hex Package</title>
+      <link>https://iboard.github.io/posts/2025-09-21-data-source/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-21-data-source/</guid>
+      <description>&lt;p&gt;In the Elixir ecosystem, managing data access is a crucial part of building robust applications. The &lt;code&gt;data_source&lt;/code&gt; hex package aims to simplify this by providing a unified interface for interacting with various data sources.&lt;/p&gt;&#xA;&lt;p&gt;While Elixir has excellent tools like &lt;code&gt;Ecto&lt;/code&gt; for database access, &lt;code&gt;data_source&lt;/code&gt; can be useful in scenarios where you need to fetch data from different types of sources, not just databases. It provides a consistent API, making your code cleaner and easier to maintain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>#hex Working with Time in Elixir using &#39;timewrap&#39;</title>
+      <link>https://iboard.github.io/posts/2025-09-21-timewrap/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-21-timewrap/</guid>
+      <description>&lt;p&gt;Dealing with time in software development can be tricky. The &lt;code&gt;timewrap&lt;/code&gt; hex package for Elixir provides a convenient way to work with time-related operations, especially in testing.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;timewrap&lt;/code&gt; acts as a &amp;ldquo;Time-Wrapper&amp;rdquo; that allows you to access different time sources in Elixir and Erlang. One of its most powerful features is the ability to freeze and unfreeze timers. This is incredibly useful for writing deterministic tests for time-dependent code.&lt;/p&gt;&#xA;&lt;p&gt;Instead of relying on the system clock, you can use &lt;code&gt;timewrap&lt;/code&gt; to control the flow of time in your tests, making them more reliable and easier to reason about.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ex_roman: A Roman Numeral Converter in Elixir</title>
+      <link>https://iboard.github.io/posts/2015-09-27-ex-roman/</link>
+      <pubDate>Sun, 27 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2015-09-27-ex-roman/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m excited to share another one of my open-source projects: &lt;a href=&#34;https://github.com/iboard/ex_roman&#34;&gt;ex_roman&lt;/a&gt;. It&amp;rsquo;s a small Elixir library for converting integers to and from Roman numerals.&lt;/p&gt;&#xA;&lt;p&gt;The project was born as a fun exercise in Test-Driven Development (TDD) and a way to explore the power of pattern matching in Elixir. The core of the library is a set of functions that use pattern matching to handle the conversion logic, which makes the code concise and easy to understand.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Traffic Light Simulation with Ruby</title>
+      <link>https://iboard.github.io/posts/2015-09-26-traffic-light/</link>
+      <pubDate>Sat, 26 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2015-09-26-traffic-light/</guid>
+      <description>&lt;p&gt;Today, I want to share an interesting project I found on GitHub: &lt;a href=&#34;https://github.com/iboard/traffic_light&#34;&gt;traffic_light&lt;/a&gt;. It&amp;rsquo;s a simulation of a traffic light controller, implemented in Ruby.&lt;/p&gt;&#xA;&lt;p&gt;The project uses Ruby&amp;rsquo;s &lt;code&gt;Fibers&lt;/code&gt; for concurrency and the &lt;code&gt;Curses&lt;/code&gt; library for a terminal-based graphical interface. It&amp;rsquo;s a great example of how to use these technologies to create a simple simulation.&lt;/p&gt;&#xA;&lt;p&gt;The core of the simulation is a state machine that defines the different states of the traffic lights (red, green, yellow). The state transitions are managed by the Fibers, which are lightweight concurrency primitives in Ruby.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

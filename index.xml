@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Andi Altendorfer</copyright>
-    <lastBuildDate>Fri, 19 Sep 2025 11:59:04 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iboard.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Way of the Software Craftsman: An Introduction</title>
@@ -15,13 +15,6 @@
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://iboard.github.io/craftsman/01-introduction-to-software-craftsmanship/</guid>
       <description>&lt;p&gt;In the ever-evolving world of software development, it&amp;rsquo;s easy to get caught up in the latest frameworks, languages, and tools. While these are important, they are only one side of the coin. The other side is the mindset and professionalism we bring to our work. This is the essence of Software Craftsmanship.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-software-craftsmanship&#34;&gt;What is Software Craftsmanship?&lt;/h2&gt;&#xA;&lt;p&gt;Software Craftsmanship is a movement that promotes the idea of software development as a skilled craft. It&amp;rsquo;s about taking pride in our work, and striving to create software that is not only functional but also well-crafted, maintainable, and a joy to work with.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hello, and welcome (Post#0)</title>
-      <link>https://iboard.github.io/posts/202509151116-welcome-post/</link>
-      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://iboard.github.io/posts/202509151116-welcome-post/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/andi256x256.jpg&#34; alt=&#34;Andi Altendorfer&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m so incredibly happy to finally have my own little corner of the internet. For a long time, I&amp;rsquo;ve wanted a space where I could share my thoughts, projects, and whatever else comes to mind, without the distractions of social media. After a lot of tinkering, I&amp;rsquo;ve built this blog using Hugo, and I couldn&amp;rsquo;t be more excited to start publishing here.&lt;/p&gt;&#xA;&lt;p&gt;This is a space for me to write freely and connect with a community that shares similar interests. I&amp;rsquo;m glad you&amp;rsquo;ve stopped by, and I hope you&amp;rsquo;ll stick around. You can expect to find posts on [Your topics here, e.g., web development, hiking, creative writing], but really, it&amp;rsquo;s just a place for whatever new ideas I have.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Clean Code: The Foundation of a Solid Product</title>
@@ -59,13 +52,6 @@
       <description>&lt;p&gt;In our journey to becoming better software craftsmen, we&amp;rsquo;ve talked a lot about the importance of clean code. But what does &amp;ldquo;clean code&amp;rdquo; actually mean? To get a better understanding, let&amp;rsquo;s turn to some of the most respected figures in the software development industry and see what they have to say.&lt;/p&gt;&#xA;&lt;h2 id=&#34;robert-c-martin-uncle-bob&#34;&gt;Robert C. Martin (Uncle Bob)&lt;/h2&gt;&#xA;&lt;p&gt;Robert C. Martin, also known as &amp;ldquo;Uncle Bob,&amp;rdquo; is the author of the influential book &amp;ldquo;Clean Code: A Handbook of Agile Software Craftsmanship.&amp;rdquo; He has many insightful things to say about clean code, but one of my favorites is:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Review of the Remarkable Paper Pro</title>
-      <link>https://iboard.github.io/posts/2025-09-19-remarkable-paper-pro-review/</link>
-      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://iboard.github.io/posts/2025-09-19-remarkable-paper-pro-review/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been using the &lt;a href=&#34;https://remarkable.com&#34;&gt;Remarkable Paper Pro&lt;/a&gt; since 2021, and it has become an indispensable part of my daily routine. As someone who loves the feel of writing on paper but needs the convenience of digital notes, the Remarkable has been a game-changer.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/remarkable_paper_pro.png&#34; alt=&#34;Remarkable Paper Pro&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-writing-experience&#34;&gt;The Writing Experience&lt;/h2&gt;&#xA;&lt;p&gt;The first thing that struck me about the Remarkable is how natural it feels to write on. The textured surface of the screen and the pressure-sensitive stylus create an experience that is remarkably close to writing on paper. There&amp;rsquo;s no lag, and the &amp;ldquo;ink&amp;rdquo; flows smoothly from the stylus. It&amp;rsquo;s a joy to use for everything from jotting down quick notes to long-form writing.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>License</title>
       <link>https://iboard.github.io/about/license/</link>
       <pubDate>Fri, 19 Sep 2025 11:59:04 +0200</pubDate>
@@ -87,11 +73,53 @@
       <description>&lt;h1 id=&#34;contact&#34;&gt;Contact&lt;/h1&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-elixir&#34; data-lang=&#34;elixir&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;%{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;first_name&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Andreas&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;last_name&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Altendorfer&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;country&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Austria&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;city&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Haid&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;zip&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;4053&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;email&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;andreas -at- altendorfer -dot- at&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;phone&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;+austria-six-seven-six–seven-five-five-nine-six-null-three&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;When using content from my pages please read the &lt;a href=&#34;https://iboard.github.io/about/license&#34;&gt;license&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you want to &lt;strong&gt;talk about business&lt;/strong&gt;, please visit &lt;a href=&#34;https://iboard.github.io/about/ematrix/&#34;&gt;e-Matrix Innovations&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>#hex My public Hex Packages</title>
+      <link>https://iboard.github.io/posts/2025-09-21-tx-hexpackages/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-21-tx-hexpackages/</guid>
+      <description>&lt;p&gt;Today I stumbled upon my old Github repository called &lt;a href=&#34;https://github.com/iboard/hexpack-examples&#34;&gt;hexpack-examples&lt;/a&gt;. It demonstrates the usage of several useful Elixir hex packages. Let&amp;rsquo;s take a closer look at them.&lt;/p&gt;&#xA;&lt;p&gt;The repository provides examples for the following packages:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://iboard.github.io/posts/2025-09-21-data-source&#34;&gt;data_source&lt;/a&gt;&lt;/strong&gt;: This package provides a unified way to access data from various sources.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://iboard.github.io/posts/2025-09-21-bucketier&#34;&gt;bucketier&lt;/a&gt;&lt;/strong&gt;: A simple and effective rate-limiter.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://iboard.github.io/posts/2025-09-21-timewrap&#34;&gt;timewrap&lt;/a&gt;&lt;/strong&gt;: A package to handle time-related operations.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;exconfig&lt;/strong&gt;: A package to manage application configuration. (deprecated)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The repository is a great resource for learning how to use these packages in a real-world scenario. The examples are well-tested and provide a good starting point for integrating these packages into your own projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>#hex Rate Limiting with &#39;bucketier&#39; in Elixir</title>
+      <link>https://iboard.github.io/posts/2025-09-21-bucketier/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-21-bucketier/</guid>
+      <description>&lt;p&gt;Rate limiting is an essential technique for protecting your application from abuse and ensuring fair usage. The &lt;code&gt;bucketier&lt;/code&gt; hex package provides a simple and effective way to implement rate limiting in your Elixir applications.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;bucketier&lt;/code&gt; is based on the token bucket algorithm, a popular method for rate limiting. It allows you to define rules for how many requests can be made in a given time period.&lt;/p&gt;&#xA;&lt;p&gt;The package is easy to set up and configure. You can define different rate limits for different parts of your application, giving you fine-grained control over how your resources are used.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>#hex The &#39;data_source&#39; Hex Package</title>
+      <link>https://iboard.github.io/posts/2025-09-21-data-source/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-21-data-source/</guid>
+      <description>&lt;p&gt;In the Elixir ecosystem, managing data access is a crucial part of building robust applications. The &lt;code&gt;data_source&lt;/code&gt; hex package aims to simplify this by providing a unified interface for interacting with various data sources.&lt;/p&gt;&#xA;&lt;p&gt;While Elixir has excellent tools like &lt;code&gt;Ecto&lt;/code&gt; for database access, &lt;code&gt;data_source&lt;/code&gt; can be useful in scenarios where you need to fetch data from different types of sources, not just databases. It provides a consistent API, making your code cleaner and easier to maintain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>#hex Working with Time in Elixir using &#39;timewrap&#39;</title>
+      <link>https://iboard.github.io/posts/2025-09-21-timewrap/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-21-timewrap/</guid>
+      <description>&lt;p&gt;Dealing with time in software development can be tricky. The &lt;code&gt;timewrap&lt;/code&gt; hex package for Elixir provides a convenient way to work with time-related operations, especially in testing.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;timewrap&lt;/code&gt; acts as a &amp;ldquo;Time-Wrapper&amp;rdquo; that allows you to access different time sources in Elixir and Erlang. One of its most powerful features is the ability to freeze and unfreeze timers. This is incredibly useful for writing deterministic tests for time-dependent code.&lt;/p&gt;&#xA;&lt;p&gt;Instead of relying on the system clock, you can use &lt;code&gt;timewrap&lt;/code&gt; to control the flow of time in your tests, making them more reliable and easier to reason about.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Review of the Remarkable Paper Pro</title>
+      <link>https://iboard.github.io/posts/2025-09-19-remarkable-paper-pro-review/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-19-remarkable-paper-pro-review/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been using the &lt;a href=&#34;https://remarkable.com&#34;&gt;Remarkable Paper Pro&lt;/a&gt; since 2021, and it has become an indispensable part of my daily routine. As someone who loves the feel of writing on paper but needs the convenience of digital notes, the Remarkable has been a game-changer.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/remarkable_paper_pro.png&#34; alt=&#34;Remarkable Paper Pro&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-writing-experience&#34;&gt;The Writing Experience&lt;/h2&gt;&#xA;&lt;p&gt;The first thing that struck me about the Remarkable is how natural it feels to write on. The textured surface of the screen and the pressure-sensitive stylus create an experience that is remarkably close to writing on paper. There&amp;rsquo;s no lag, and the &amp;ldquo;ink&amp;rdquo; flows smoothly from the stylus. It&amp;rsquo;s a joy to use for everything from jotting down quick notes to long-form writing.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Why I&#39;m All In to Elixir and Phoenix</title>
       <link>https://iboard.github.io/posts/2025-09-19-why-i-use-elixir-and-phoenix/</link>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://iboard.github.io/posts/2025-09-19-why-i-use-elixir-and-phoenix/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/elixir-phoenix-banner.svg&#34; alt=&#34;Elixir Phoenix My Go-To Stack&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been a software developer for a long time, and I&amp;rsquo;ve worked with many different languages and frameworks over the years. But for the past few years, I&amp;rsquo;ve found myself reaching for the same two tools for almost every project: Elixir and Phoenix.&lt;/p&gt;&#xA;&lt;p&gt;In this post, I want to share some of the reasons why I&amp;rsquo;ve fallen in love with this powerful combination, and why I think it&amp;rsquo;s a great choice for modern web development.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello, and welcome (Post#0)</title>
+      <link>https://iboard.github.io/posts/2025-09-15-welcome-post/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-15-welcome-post/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/andi256x256.jpg&#34; alt=&#34;Andi Altendorfer&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m so incredibly happy to finally have my own little corner of the internet. For a long time, I&amp;rsquo;ve wanted a space where I could share my thoughts, projects, and whatever else comes to mind, without the distractions of social media. After a lot of tinkering, I&amp;rsquo;ve built this blog using Hugo, and I couldn&amp;rsquo;t be more excited to start publishing here.&lt;/p&gt;&#xA;&lt;p&gt;This is a space for me to write freely and connect with a community that shares similar interests. I&amp;rsquo;m glad you&amp;rsquo;ve stopped by, and I hope you&amp;rsquo;ll stick around. You can expect to find posts on [Your topics here, e.g., web development, hiking, creative writing], but really, it&amp;rsquo;s just a place for whatever new ideas I have.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugo Theme ARCHIE</title>
@@ -659,6 +687,20 @@
       <pubDate>Sat, 10 Nov 2018 14:00:00 +0000</pubDate>
       <guid>https://iboard.github.io/archives/posts/2018-11-10-discovering-elixir/</guid>
       <description>&lt;p&gt;After years of working with object-oriented languages, I stumbled upon Elixir in 2012 and it was a breath of fresh air. The functional programming paradigm, the actor model, and the BEAM VM were all new concepts to me. It took some time to wrap my head around it, but the elegance and concurrency of Elixir were undeniable. It felt like I was learning to program all over again, but in a good way.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ex_roman: A Roman Numeral Converter in Elixir</title>
+      <link>https://iboard.github.io/posts/2015-09-27-ex-roman/</link>
+      <pubDate>Sun, 27 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2015-09-27-ex-roman/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m excited to share another one of my open-source projects: &lt;a href=&#34;https://github.com/iboard/ex_roman&#34;&gt;ex_roman&lt;/a&gt;. It&amp;rsquo;s a small Elixir library for converting integers to and from Roman numerals.&lt;/p&gt;&#xA;&lt;p&gt;The project was born as a fun exercise in Test-Driven Development (TDD) and a way to explore the power of pattern matching in Elixir. The core of the library is a set of functions that use pattern matching to handle the conversion logic, which makes the code concise and easy to understand.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Traffic Light Simulation with Ruby</title>
+      <link>https://iboard.github.io/posts/2015-09-26-traffic-light/</link>
+      <pubDate>Sat, 26 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2015-09-26-traffic-light/</guid>
+      <description>&lt;p&gt;Today, I want to share an interesting project I found on GitHub: &lt;a href=&#34;https://github.com/iboard/traffic_light&#34;&gt;traffic_light&lt;/a&gt;. It&amp;rsquo;s a simulation of a traffic light controller, implemented in Ruby.&lt;/p&gt;&#xA;&lt;p&gt;The project uses Ruby&amp;rsquo;s &lt;code&gt;Fibers&lt;/code&gt; for concurrency and the &lt;code&gt;Curses&lt;/code&gt; library for a terminal-based graphical interface. It&amp;rsquo;s a great example of how to use these technologies to create a simple simulation.&lt;/p&gt;&#xA;&lt;p&gt;The core of the simulation is a state machine that defines the different states of the traffic lights (red, green, yellow). The state transitions are managed by the Fibers, which are lightweight concurrency primitives in Ruby.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Web Revolution and the Rise of PHP</title>
