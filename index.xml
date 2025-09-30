@@ -80,13 +80,6 @@
       <description>&lt;p&gt;Today I stumbled upon my old Github repository called &lt;a href=&#34;https://github.com/iboard/hexpack-examples&#34;&gt;hexpack-examples&lt;/a&gt;. It demonstrates the usage of several useful Elixir hex packages. Let&amp;rsquo;s take a closer look at them.&lt;/p&gt;&#xA;&lt;p&gt;The repository provides examples for the following packages:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://iboard.github.io/posts/2025-09-21-data-source&#34;&gt;data_source&lt;/a&gt;&lt;/strong&gt;: This package provides a unified way to access data from various sources.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://iboard.github.io/posts/2025-09-21-bucketier&#34;&gt;bucketier&lt;/a&gt;&lt;/strong&gt;: A simple and effective rate-limiter.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://iboard.github.io/posts/2025-09-21-timewrap&#34;&gt;timewrap&lt;/a&gt;&lt;/strong&gt;: A package to handle time-related operations.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;exconfig&lt;/strong&gt;: A package to manage application configuration. (deprecated)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The repository is a great resource for learning how to use these packages in a real-world scenario. The examples are well-tested and provide a good starting point for integrating these packages into your own projects.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>#hex Rate Limiting with &#39;bucketier&#39; in Elixir</title>
-      <link>https://iboard.github.io/posts/2025-09-21-bucketier/</link>
-      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://iboard.github.io/posts/2025-09-21-bucketier/</guid>
-      <description>&lt;p&gt;Rate limiting is an essential technique for protecting your application from abuse and ensuring fair usage. The &lt;code&gt;bucketier&lt;/code&gt; hex package provides a simple and effective way to implement rate limiting in your Elixir applications.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;bucketier&lt;/code&gt; is based on the token bucket algorithm, a popular method for rate limiting. It allows you to define rules for how many requests can be made in a given time period.&lt;/p&gt;&#xA;&lt;p&gt;The package is easy to set up and configure. You can define different rate limits for different parts of your application, giving you fine-grained control over how your resources are used.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>#hex The &#39;data_source&#39; Hex Package</title>
       <link>https://iboard.github.io/posts/2025-09-21-data-source/</link>
       <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
@@ -99,6 +92,13 @@
       <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://iboard.github.io/posts/2025-09-21-timewrap/</guid>
       <description>&lt;p&gt;Dealing with time in software development can be tricky. The &lt;code&gt;timewrap&lt;/code&gt; hex package for Elixir provides a convenient way to work with time-related operations, especially in testing.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;timewrap&lt;/code&gt; acts as a &amp;ldquo;Time-Wrapper&amp;rdquo; that allows you to access different time sources in Elixir and Erlang. One of its most powerful features is the ability to freeze and unfreeze timers. This is incredibly useful for writing deterministic tests for time-dependent code.&lt;/p&gt;&#xA;&lt;p&gt;Instead of relying on the system clock, you can use &lt;code&gt;timewrap&lt;/code&gt; to control the flow of time in your tests, making them more reliable and easier to reason about.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bucketier: A Simple Key/Value Store in Elixir</title>
+      <link>https://iboard.github.io/posts/2025-09-21-bucketier/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-21-bucketier/</guid>
+      <description>&lt;p&gt;&lt;code&gt;bucketier&lt;/code&gt; is a simple key/value store for Elixir. It provides a straightforward way to store and retrieve data in named buckets.&lt;/p&gt;&#xA;&lt;p&gt;The main purpose of &lt;code&gt;bucketier&lt;/code&gt; is to offer a simple and easy-to-use API for managing key/value data. You can create named buckets, put data into them, and get it back when you need it.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a great choice for situations where you need a simple in-memory storage solution without the overhead of a full-fledged database. It can be useful for caching, session management, or any other scenario where you need to store temporary data.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Review of the Remarkable Paper Pro</title>

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html><head lang="en">
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>#hex Rate Limiting with &#39;bucketier&#39; in Elixir - Andi Altendorfer</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="A simple K/V store" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Bucketier: A Simple Key/Value Store in Elixir - Andi Altendorfer</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="A simple K/V store for Elixir." />
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content="https://iboard.github.io/posts/2025-09-21-bucketier/">
   <meta property="og:site_name" content="Andi Altendorfer">
-  <meta property="og:title" content="#hex Rate Limiting with &#39;bucketier&#39; in Elixir">
-  <meta property="og:description" content="A simple K/V store">
+  <meta property="og:title" content="Bucketier: A Simple Key/Value Store in Elixir">
+  <meta property="og:description" content="A simple K/V store for Elixir.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -17,8 +17,8 @@
     <meta property="article:tag" content="Elixir">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="#hex Rate Limiting with &#39;bucketier&#39; in Elixir">
-  <meta name="twitter:description" content="A simple K/V store">
+  <meta name="twitter:title" content="Bucketier: A Simple Key/Value Store in Elixir">
+  <meta name="twitter:description" content="A simple K/V store for Elixir.">
 
         <link href="https://iboard.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
@@ -60,7 +60,7 @@
       
       <div class="post-content">
         <div class="title">
-          <h1 class="title">#hex Rate Limiting with &#39;bucketier&#39; in Elixir</h1>
+          <h1 class="title">Bucketier: A Simple Key/Value Store in Elixir</h1>
           <div class="meta">
             Posted on Sep 21, 2025
           </div>
@@ -89,10 +89,12 @@
       </div>
       
       
-        <section class="body"><p>Rate limiting is an essential technique for protecting your application from abuse and ensuring fair usage. The <code>bucketier</code> hex package provides a simple and effective way to implement rate limiting in your Elixir applications.</p>
-<p><code>bucketier</code> is based on the token bucket algorithm, a popular method for rate limiting. It allows you to define rules for how many requests can be made in a given time period.</p>
-<p>The package is easy to set up and configure. You can define different rate limits for different parts of your application, giving you fine-grained control over how your resources are used.</p>
-<p>To get started with <code>bucketier</code>, you can add it to your <code>mix.exs</code> file and configure it in your application. The documentation on <a href="https://hexdocs.pm/bucketier">Hexdocs</a> provides a comprehensive guide to its usage.</p>
+        <section class="body"><p><code>bucketier</code> is a simple key/value store for Elixir. It provides a straightforward way to store and retrieve data in named buckets.</p>
+<p>The main purpose of <code>bucketier</code> is to offer a simple and easy-to-use API for managing key/value data. You can create named buckets, put data into them, and get it back when you need it.</p>
+<p>It&rsquo;s a great choice for situations where you need a simple in-memory storage solution without the overhead of a full-fledged database. It can be useful for caching, session management, or any other scenario where you need to store temporary data.</p>
+<p>The library is designed to be simple and easy to use. You can get started with just a few lines of code. The documentation on <a href="https://hexdocs.pm/bucketier">Hexdocs</a> provides a clear guide on how to use it.</p>
+<p>While the current version of <code>bucketier</code> provides the basic functionality of a key/value store, there are plans to add more features in the future, such as updating and deleting entries, and even persistence.</p>
+<p>If you&rsquo;re looking for a simple and lightweight key/value store for your Elixir application, <code>bucketier</code> is definitely worth a look.</p>
 </section>
       </div>
 
