@@ -28,7 +28,7 @@
       <link>https://iboard.github.io/posts/2025-09-21-data-source/</link>
       <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://iboard.github.io/posts/2025-09-21-data-source/</guid>
-      <description>&lt;p&gt;In the Elixir ecosystem, managing data access is a crucial part of building robust applications. The &lt;code&gt;data_source&lt;/code&gt; hex package aims to simplify this by providing a unified interface for interacting with various data sources.&lt;/p&gt;&#xA;&lt;p&gt;While Elixir has excellent tools like &lt;code&gt;Ecto&lt;/code&gt; for database access, &lt;code&gt;data_source&lt;/code&gt; can be useful in scenarios where you need to fetch data from different types of sources, not just databases. It provides a consistent API, making your code cleaner and easier to maintain.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://hexdocs.pm/data_source/assets/logo.png&#34; alt=&#34;Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the Elixir ecosystem, managing data access is a crucial part of building robust applications. The &lt;code&gt;data_source&lt;/code&gt; hex package aims to simplify this by providing a unified interface for interacting with various data sources.&lt;/p&gt;&#xA;&lt;p&gt;While Elixir has excellent tools like &lt;code&gt;Ecto&lt;/code&gt; for database access, &lt;code&gt;data_source&lt;/code&gt; can be useful in scenarios where you need to fetch data from different types of sources, not just databases. It provides a consistent API, making your code cleaner and easier to maintain.&lt;/p&gt;</description>
     </item>
     <item>
       <title>#hex Working with Time in Elixir using &#39;timewrap&#39;</title>
