@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ai on Andi Altendorfer</title>
+    <link>https://iboard.github.io/tags/ai/</link>
+    <description>Recent content in Ai on Andi Altendorfer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Andi Altendorfer</copyright>
+    <lastBuildDate>Sun, 05 Oct 2025 09:03:09 +0200</lastBuildDate>
+    <atom:link href="https://iboard.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blame the AI</title>
+      <link>https://iboard.github.io/posts/2025-10-05-blame-the-ai/</link>
+      <pubDate>Sun, 05 Oct 2025 09:03:09 +0200</pubDate>
+      <guid>https://iboard.github.io/posts/2025-10-05-blame-the-ai/</guid>
+      <description>&lt;p&gt;Isn&amp;rsquo;t that nice and easy? I can just add a small note that a text or a piece of&#xA;source code was created with the help of AI and then blame every mistake in my&#xA;publication on the AI ;-)&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://iboard.github.io/images/2025-10-05-ai.png&#34; alt=&#34;Cartoon shows a human and a roboter. The human finger points all errors to the robot.&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
