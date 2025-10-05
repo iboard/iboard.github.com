@@ -11,7 +11,7 @@
 }
 
 body {
-  color: white;
+  color: #aaa;
   background-color: #202124;
 }
 
@@ -28,7 +28,8 @@ body {
 }
 
 hr {
-  border-top: 3px dotted blue;
+  border-top: 3px dotted #888;
+  opacity: 0.3;
 }
 code {
   background-color: lightblue;
@@ -52,8 +53,10 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ddd;
+  color: #abc;
 }
+
+/*
 h1::before {
   color: var(--darkMaincolor);
   content: "# ";
@@ -78,6 +81,7 @@ h6::before {
   color: var(--darkMaincolor);
   content: "###### ";
 }
+*/
 
 .toc {
   background-color: #272822;

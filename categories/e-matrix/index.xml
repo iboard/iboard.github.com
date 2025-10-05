@@ -17,11 +17,18 @@
       <description>&lt;p&gt;This section is for interal use only.&#xA;As a member of the &lt;a href=&#34;https://iboard.github.io/about/ematrix&#34;&gt;e-Matrix&lt;/a&gt; ask for a uper/password&#xA;to access this pages.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Resources</title>
+      <link>https://iboard.github.io/ematrix/2025-10-05-resources/</link>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/2025-10-05-resources/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;/ematrix&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;github&#34;&gt;GitHub&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/e-matrix/emie&#34;&gt;Project emie&lt;/a&gt; - our old system.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/iboard/eec&#34;&gt;Project eec&lt;/a&gt; - our new system.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;wels&#34;&gt;Wels&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.ematrixsys.com&#34;&gt;docs.ematrixsys.com&lt;/a&gt; - documentaion of&#xA;our development server in Wels.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;services&#34;&gt;Services&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Cloudflare&lt;/li&gt;&#xA;&lt;li&gt;AppSignal&lt;/li&gt;&#xA;&lt;li&gt;Sendgrid&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;TODO: Add links&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Welcome e-Matrix Collogues</title>
       <link>https://iboard.github.io/ematrix/2025-10-05-welcome-ematrix/</link>
       <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://iboard.github.io/ematrix/2025-10-05-welcome-ematrix/</guid>
-      <description>&lt;p&gt;Welcome to the /ematrix channel at altendorfer.at.&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip;more to come&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;/ematrix&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;protected&#34;&gt;protected&lt;/h3&gt;&#xA;&lt;p&gt;The section /ematrix is protected by user and password.&#xA;If you are a member of the e-Matrix Team, just ask Andi for a password.&lt;/p&gt;&#xA;&lt;h3 id=&#34;content&#34;&gt;Content&lt;/h3&gt;&#xA;&lt;p&gt;You can found posts and articles about our daily professions.&#xA;Also, I document some stuff for which there is no place at e-matrix&amp;rsquo;s&#xA;resources to place the documentation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>e-Matrix Innovations GmbH</title>
