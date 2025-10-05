@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elixir on Andi Altendorfer</title>
+    <link>https://iboard.github.io/categories/elixir/</link>
+    <description>Recent content in Elixir on Andi Altendorfer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Andi Altendorfer</copyright>
+    <lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://iboard.github.io/categories/elixir/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#hex My public Hex Packages</title>
+      <link>https://iboard.github.io/posts/2025-09-21-tx-hexpackages/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-21-tx-hexpackages/</guid>
+      <description>&lt;p&gt;Today I stumbled upon my old Github repository called &lt;a href=&#34;https://github.com/iboard/hexpack-examples&#34;&gt;hexpack-examples&lt;/a&gt;. It demonstrates the usage of several useful Elixir hex packages. Let&amp;rsquo;s take a closer look at them.&lt;/p&gt;&#xA;&lt;p&gt;The repository provides examples for the following packages:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://iboard.github.io/posts/2025-09-21-data-source&#34;&gt;data_source&lt;/a&gt;&lt;/strong&gt;: This package provides a unified way to access data from various sources.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://iboard.github.io/posts/2025-09-21-bucketier&#34;&gt;bucketier&lt;/a&gt;&lt;/strong&gt;: A simple and effective rate-limiter.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://iboard.github.io/posts/2025-09-21-timewrap&#34;&gt;timewrap&lt;/a&gt;&lt;/strong&gt;: A package to handle time-related operations.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;exconfig&lt;/strong&gt;: A package to manage application configuration. (deprecated)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The repository is a great resource for learning how to use these packages in a real-world scenario. The examples are well-tested and provide a good starting point for integrating these packages into your own projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>#hex The &#39;data_source&#39; Hex Package</title>
+      <link>https://iboard.github.io/posts/2025-09-21-data-source/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-21-data-source/</guid>
+      <description>&lt;p&gt;In the Elixir ecosystem, managing data access is a crucial part of building robust applications. The &lt;code&gt;data_source&lt;/code&gt; hex package aims to simplify this by providing a unified interface for interacting with various data sources.&lt;/p&gt;&#xA;&lt;p&gt;While Elixir has excellent tools like &lt;code&gt;Ecto&lt;/code&gt; for database access, &lt;code&gt;data_source&lt;/code&gt; can be useful in scenarios where you need to fetch data from different types of sources, not just databases. It provides a consistent API, making your code cleaner and easier to maintain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>#hex Working with Time in Elixir using &#39;timewrap&#39;</title>
+      <link>https://iboard.github.io/posts/2025-09-21-timewrap/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-21-timewrap/</guid>
+      <description>&lt;p&gt;Dealing with time in software development can be tricky. The &lt;code&gt;timewrap&lt;/code&gt; hex package for Elixir provides a convenient way to work with time-related operations, especially in testing.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;timewrap&lt;/code&gt; acts as a &amp;ldquo;Time-Wrapper&amp;rdquo; that allows you to access different time sources in Elixir and Erlang. One of its most powerful features is the ability to freeze and unfreeze timers. This is incredibly useful for writing deterministic tests for time-dependent code.&lt;/p&gt;&#xA;&lt;p&gt;Instead of relying on the system clock, you can use &lt;code&gt;timewrap&lt;/code&gt; to control the flow of time in your tests, making them more reliable and easier to reason about.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bucketier: A Simple Key/Value Store in Elixir</title>
+      <link>https://iboard.github.io/posts/2025-09-21-bucketier/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-21-bucketier/</guid>
+      <description>&lt;p&gt;&lt;code&gt;bucketier&lt;/code&gt; is a simple key/value store for Elixir. It provides a straightforward way to store and retrieve data in named buckets.&lt;/p&gt;&#xA;&lt;p&gt;The main purpose of &lt;code&gt;bucketier&lt;/code&gt; is to offer a simple and easy-to-use API for managing key/value data. You can create named buckets, put data into them, and get it back when you need it.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a great choice for situations where you need a simple in-memory storage solution without the overhead of a full-fledged database. It can be useful for caching, session management, or any other scenario where you need to store temporary data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why I&#39;m All In to Elixir and Phoenix</title>
+      <link>https://iboard.github.io/posts/2025-09-19-why-i-use-elixir-and-phoenix/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-09-19-why-i-use-elixir-and-phoenix/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been a software developer for a long time, and I&amp;rsquo;ve worked with many different languages and frameworks over the years. But for the past few years, I&amp;rsquo;ve found myself reaching for the same two tools for almost every project: Elixir and Phoenix.&lt;/p&gt;&#xA;&lt;p&gt;In this post, I want to share some of the reasons why I&amp;rsquo;ve fallen in love with this powerful combination, and why I think it&amp;rsquo;s a great choice for modern web development.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Check out and play around with DaisyUI</title>
+      <link>https://iboard.github.io/posts/2025-04-19-elixirlang-phoenixframework-this-weekend-i-had-time-to-check-out-and-play-around-with-daisyui/</link>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-04-19-elixirlang-phoenixframework-this-weekend-i-had-time-to-check-out-and-play-around-with-daisyui/</guid>
+      <description>&lt;p&gt;#elixirlang #phoenixframework This weekend I had time to check out and play around with DaisyUI, after listening to Phoenix&amp;rsquo;s #DaisyUI Facelift (podcast.thinkingelixir.com/247) the last days.&lt;/p&gt;&#xA;&lt;p&gt;I liked it at the first try, although I couldn&amp;rsquo;t find a &amp;lsquo;&amp;ndash;migrate-all-older-projects&amp;rsquo; option.&lt;/p&gt;&#xA;&lt;p&gt;Phoenix&amp;rsquo;s DaisyUI Facelift&#xA;News includes Phoenix adding DaisyUI, Erlang/OTP 28.0-rc2 with priority messages, LiveViewPortal for embedding LiveView in any website, upcoming Elixir improvements to double dependency compilation sp&amp;hellip;&#xA;podcast.thinkingelixir.com&lt;/p&gt;&#xA;&lt;p&gt;Open the &lt;a href=&#34;https://podcast.thinkingelixir.com/247&#34;&gt;Thinkelixir Podcast&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thank you to all contributors to #elixirlang and #phoenixframework</title>
+      <link>https://iboard.github.io/posts/2025-01-19-thank-you-elixir-and-phoenix-contributors/</link>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-01-19-thank-you-elixir-and-phoenix-contributors/</guid>
+      <description>&lt;p&gt;Let me join to send a big thank you to all contributors to #elixirlang and #phoenixframework. I’m working with what you’re doing every day and can’t express how happy I’m with that environment. 👍&lt;/p&gt;&#xA;&lt;p&gt;‪Zach Daniel‬&#xA;‪@zachdaniel.dev‬&#xA;· 8mo&#xA;Sometimes it’s easy to forget all the cool things that Phoenix makes easy for #ElixirLang devs, especially when we’re used to it! Big shout out to Chris McCord and @josevalim.bsky.social. Pubsub and presence are magically simple tools that make a massive difference to have right at our&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
