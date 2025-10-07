@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ematrixsys on Andi Altendorfer</title>
+    <link>https://iboard.github.io/categories/ematrixsys/</link>
+    <description>Recent content in Ematrixsys on Andi Altendorfer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Andi Altendorfer</copyright>
+    <lastBuildDate>Tue, 07 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://iboard.github.io/categories/ematrixsys/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ematrixsys 2.0 - Development</title>
+      <link>https://iboard.github.io/ematrix/ematrixsys/2025-10-07-development/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/ematrixsys/2025-10-07-development/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/ematrixsys&#34;&gt;ematrixsys&lt;/a&gt; | &lt;em&gt;&lt;strong&gt;Development&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;development&#34;&gt;Development&lt;/h2&gt;&#xA;&lt;p&gt;The development (Andi and Oscar) is working on Apple Mx workstations.&#xA;Committing their work to GitHub.&lt;/p&gt;&#xA;&lt;p&gt;Demo- and Testing-instances are running on a Mac Mini M2 pro in the&#xA;office in Wels. This instances are reachable from public via &lt;em&gt;Cloudflar&lt;/em&gt;&#xA;tunnes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ematrixsys 2.0 - Github</title>
+      <link>https://iboard.github.io/ematrix/ematrixsys/2025-10-07-github/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/ematrixsys/2025-10-07-github/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/ematrixsys&#34;&gt;ematrixsys&lt;/a&gt; | &lt;em&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;github&#34;&gt;GitHub&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/iboard/eec&#34;&gt;Repository EEC&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/users/iboard/projects/6&#34;&gt;Kanban project EEC&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Move to e-matrix organisation within GitHub.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>ematrixsys 2.0 - our new system, starting 2025/Q4</title>
+      <link>https://iboard.github.io/ematrix/ematrixsys/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/ematrixsys/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;em&gt;&lt;strong&gt;ematrixsys&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is the top of the documentation of &lt;a href=&#34;https://iboard.github.io/about/ematrix&#34;&gt;e-matrix&amp;rsquo;s&lt;/a&gt; new&#xA;system &lt;code&gt;ematrixsys 2.0&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ematrixsys 2.0 - Test- and Demo-Instances</title>
+      <link>https://iboard.github.io/ematrix/ematrixsys/2025-10-07-test-and-demo-instances/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/ematrixsys/2025-10-07-test-and-demo-instances/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/ematrixsys&#34;&gt;ematrixsys&lt;/a&gt; | &lt;em&gt;&lt;strong&gt;Test- and Demo-Instances&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;test--and-demo-instances&#34;&gt;Test- and Demo-Instances&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;preview.ematrixsys.com&lt;/li&gt;&#xA;&lt;li&gt;demo-anna.ematrixsys.com&lt;/li&gt;&#xA;&lt;li&gt;demo-ebner.ematrixsys.com&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;TODO&lt;/strong&gt;: add links&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Also, see &lt;a href=&#34;https://docs.ematrixsys.com&#34;&gt;docs.ematrixsys.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

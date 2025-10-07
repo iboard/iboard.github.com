@@ -7,8 +7,57 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Andi Altendorfer</copyright>
-    <lastBuildDate>Sun, 05 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iboard.github.io/categories/e-matrix/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ematrixsys 2.0 - Development</title>
+      <link>https://iboard.github.io/ematrix/ematrixsys/2025-10-07-development/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/ematrixsys/2025-10-07-development/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/ematrixsys&#34;&gt;ematrixsys&lt;/a&gt; | &lt;em&gt;&lt;strong&gt;Development&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;development&#34;&gt;Development&lt;/h2&gt;&#xA;&lt;p&gt;The development (Andi and Oscar) is working on Apple Mx workstations.&#xA;Committing their work to GitHub.&lt;/p&gt;&#xA;&lt;p&gt;Demo- and Testing-instances are running on a Mac Mini M2 pro in the&#xA;office in Wels. This instances are reachable from public via &lt;em&gt;Cloudflar&lt;/em&gt;&#xA;tunnes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ematrixsys 2.0 - Github</title>
+      <link>https://iboard.github.io/ematrix/ematrixsys/2025-10-07-github/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/ematrixsys/2025-10-07-github/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/ematrixsys&#34;&gt;ematrixsys&lt;/a&gt; | &lt;em&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;github&#34;&gt;GitHub&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/iboard/eec&#34;&gt;Repository EEC&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/users/iboard/projects/6&#34;&gt;Kanban project EEC&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Move to e-matrix organisation within GitHub.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>ematrixsys 2.0 - our new system, starting 2025/Q4</title>
+      <link>https://iboard.github.io/ematrix/ematrixsys/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/ematrixsys/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;em&gt;&lt;strong&gt;ematrixsys&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is the top of the documentation of &lt;a href=&#34;https://iboard.github.io/about/ematrix&#34;&gt;e-matrix&amp;rsquo;s&lt;/a&gt; new&#xA;system &lt;code&gt;ematrixsys 2.0&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ematrixsys 2.0 - Test- and Demo-Instances</title>
+      <link>https://iboard.github.io/ematrix/ematrixsys/2025-10-07-test-and-demo-instances/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/ematrixsys/2025-10-07-test-and-demo-instances/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/ematrixsys&#34;&gt;ematrixsys&lt;/a&gt; | &lt;em&gt;&lt;strong&gt;Test- and Demo-Instances&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;test--and-demo-instances&#34;&gt;Test- and Demo-Instances&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;preview.ematrixsys.com&lt;/li&gt;&#xA;&lt;li&gt;demo-anna.ematrixsys.com&lt;/li&gt;&#xA;&lt;li&gt;demo-ebner.ematrixsys.com&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;TODO&lt;/strong&gt;: add links&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Also, see &lt;a href=&#34;https://docs.ematrixsys.com&#34;&gt;docs.ematrixsys.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>EMIE System 1.0</title>
+      <link>https://iboard.github.io/ematrix/emie/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/emie/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;em&gt;&lt;strong&gt;emie&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;The section for &lt;em&gt;EMIE&lt;/em&gt; the first web system of e-Matrix Innovations.&lt;/p&gt;&#xA;&lt;p&gt;The list contains articles, posts, howtos and more for our productive system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>EMIE System 1.0 - Features</title>
+      <link>https://iboard.github.io/ematrix/emie/features/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/emie/features/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie&#34;&gt;emie&lt;/a&gt; | &lt;em&gt;&lt;strong&gt;features&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;The following articles describes features of &lt;em&gt;EMIE&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SUPERVISOR_TEAM_PREFIX</title>
+      <link>https://iboard.github.io/ematrix/emie/features/2025-10-07-supervisor-team-prefix/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/emie/features/2025-10-07-supervisor-team-prefix/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie&#34;&gt;emie&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie/features&#34;&gt;features&lt;/a&gt; | SUPERVISOR_TEAM_PREFIX&lt;/p&gt;&#xA;&lt;p&gt;When the env &lt;code&gt;SUPERVISOR_TEAM_PREFIX&lt;/code&gt; is set to &lt;code&gt;by_team&lt;/code&gt; (which is the default)&#xA;the supervisor of a person is set to the first team-leader of the first team&#xA;the person is a member of.&lt;/p&gt;&#xA;&lt;p&gt;Other than that, the setting can be a fieldname of the HR-import record.&#xA;If set to &lt;code&gt;Team - &lt;/code&gt;, then on import the team leader of a team beginning with&#xA;&lt;code&gt;Team - &lt;/code&gt; is assigned as supervisor for all members of this team.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>e-Matrix Innovations</title>
       <link>https://iboard.github.io/ematrix/</link>
@@ -21,7 +70,7 @@
       <link>https://iboard.github.io/ematrix/2025-10-05-resources/</link>
       <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://iboard.github.io/ematrix/2025-10-05-resources/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;/ematrix&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;github&#34;&gt;GitHub&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/e-matrix/emie&#34;&gt;Project emie&lt;/a&gt; - our old system.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/iboard/eec&#34;&gt;Project eec&lt;/a&gt; - our new system.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;wels&#34;&gt;Wels&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.ematrixsys.com&#34;&gt;docs.ematrixsys.com&lt;/a&gt; - documentaion of&#xA;our development server in Wels.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;services&#34;&gt;Services&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Cloudflare&lt;/li&gt;&#xA;&lt;li&gt;AppSignal&lt;/li&gt;&#xA;&lt;li&gt;Sendgrid&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;TODO: Add links&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;/ematrix&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;github&#34;&gt;GitHub&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/e-matrix/emie&#34;&gt;Project emie&lt;/a&gt; - our old system.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/iboard/eec&#34;&gt;Project eec&lt;/a&gt; - our new system.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;wels&#34;&gt;Wels&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.ematrixsys.com&#34;&gt;docs.ematrixsys.com&lt;/a&gt; - documentaion of&#xA;our development server in Wels.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;services&#34;&gt;Services&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Cloudflare&lt;/li&gt;&#xA;&lt;li&gt;AppSignal&lt;/li&gt;&#xA;&lt;li&gt;Sendgrid&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;TODO: Add and update links&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcome e-Matrix Collogues</title>

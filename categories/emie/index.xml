@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emie on Andi Altendorfer</title>
+    <link>https://iboard.github.io/categories/emie/</link>
+    <description>Recent content in Emie on Andi Altendorfer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Andi Altendorfer</copyright>
+    <lastBuildDate>Tue, 07 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://iboard.github.io/categories/emie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EMIE System 1.0</title>
+      <link>https://iboard.github.io/ematrix/emie/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/emie/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;em&gt;&lt;strong&gt;emie&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;The section for &lt;em&gt;EMIE&lt;/em&gt; the first web system of e-Matrix Innovations.&lt;/p&gt;&#xA;&lt;p&gt;The list contains articles, posts, howtos and more for our productive system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>EMIE System 1.0 - Features</title>
+      <link>https://iboard.github.io/ematrix/emie/features/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/emie/features/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie&#34;&gt;emie&lt;/a&gt; | &lt;em&gt;&lt;strong&gt;features&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;The following articles describes features of &lt;em&gt;EMIE&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SUPERVISOR_TEAM_PREFIX</title>
+      <link>https://iboard.github.io/ematrix/emie/features/2025-10-07-supervisor-team-prefix/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/emie/features/2025-10-07-supervisor-team-prefix/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie&#34;&gt;emie&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie/features&#34;&gt;features&lt;/a&gt; | SUPERVISOR_TEAM_PREFIX&lt;/p&gt;&#xA;&lt;p&gt;When the env &lt;code&gt;SUPERVISOR_TEAM_PREFIX&lt;/code&gt; is set to &lt;code&gt;by_team&lt;/code&gt; (which is the default)&#xA;the supervisor of a person is set to the first team-leader of the first team&#xA;the person is a member of.&lt;/p&gt;&#xA;&lt;p&gt;Other than that, the setting can be a fieldname of the HR-import record.&#xA;If set to &lt;code&gt;Team - &lt;/code&gt;, then on import the team leader of a team beginning with&#xA;&lt;code&gt;Team - &lt;/code&gt; is assigned as supervisor for all members of this team.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
