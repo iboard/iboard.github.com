@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Andi Altendorfer</copyright>
-    <lastBuildDate>Tue, 07 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iboard.github.io/categories/emie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EMIE CHANGELOG</title>
+      <link>https://iboard.github.io/ematrix/emie/features/2025-10-08-changlog/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/emie/features/2025-10-08-changlog/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie&#34;&gt;emie&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie/features&#34;&gt;features&lt;/a&gt; | CHANGELOG&lt;/p&gt;&#xA;&lt;h1 id=&#34;changelog-from-2020-07-30-to-2025-10-08&#34;&gt;Changelog from 2020-07-30 to 2025-10-08&lt;/h1&gt;&#xA;&lt;p&gt;Yes, you are reading write. We are maintining this project for 5 years now 😀.&lt;/p&gt;&#xA;&lt;h2 id=&#34;2025-10-05-supervisor_id&#34;&gt;2025-10-05 SUPERVISOR_ID&lt;/h2&gt;&#xA;&lt;p&gt;Neu ist die ENV SUPERVISOR_ID (.setup_env) default ist &amp;ldquo;by_team&amp;rdquo;. Dies behält das bisherige&#xA;Verhalten. Wird die Variable jedoch auf einen Feldnamen aus dem HR-Import gesetzt, wird&#xA;dieses Feld als username des Supervisors eingelesen und vom Taks &amp;ldquo;SetSupervisorAndGeneratePDF&amp;rdquo;&#xA;nicht mehr überschrieben. In Leoben wurde der Wert auf &amp;ldquo;Manager&amp;rdquo; gesetzt.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>EMIE System 1.0</title>
       <link>https://iboard.github.io/ematrix/emie/</link>
