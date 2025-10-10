@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Andi Altendorfer</copyright>
-    <lastBuildDate>Thu, 09 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Oct 2025 12:10:14 +0200</lastBuildDate>
     <atom:link href="https://iboard.github.io/tags/emie/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EMIE System 1.0 - Bugfix Lebensraeume</title>
@@ -15,6 +15,13 @@
       <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://iboard.github.io/ematrix/emie/bugfixes/2025-10-09-lebensraeume/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie&#34;&gt;emie&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie/bugfixes&#34;&gt;bugfixes&lt;/a&gt; | &lt;em&gt;&lt;strong&gt;Lebensraeume&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;oct-9th-2025&#34;&gt;Oct. 9th 2025&lt;/h2&gt;&#xA;&lt;p&gt;Bettina tries to assign team-courses but nothing happend.&lt;/p&gt;&#xA;&lt;h2 id=&#34;root-cause&#34;&gt;root cause&lt;/h2&gt;&#xA;&lt;p&gt;I need to copy the database and debug the error locally.&#xA;The newly implemented &lt;code&gt;ActiveRange&lt;/code&gt; returns &lt;code&gt;nil&lt;/code&gt; but&#xA;the code expected &lt;code&gt;[]&lt;/code&gt;. So, if a Person doesn&amp;rsquo;t have Ranges,&#xA;nothing was selected. In instances without HR-Import, we don&amp;rsquo;t have&#xA;Ranges and so, the default sould be true for &lt;code&gt;nil&lt;/code&gt; and &lt;code&gt;[]&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;actions&#34;&gt;Actions&lt;/h2&gt;&#xA;&lt;p&gt;Bug fixed, image buildt, Lebensraeume.kportal.io updated.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wimmer Medienhaus Mails</title>
+      <link>https://iboard.github.io/ematrix/emie/support/2025-10-10-wimmer-medienhaus-mails/</link>
+      <pubDate>Fri, 10 Oct 2025 12:10:14 +0200</pubDate>
+      <guid>https://iboard.github.io/ematrix/emie/support/2025-10-10-wimmer-medienhaus-mails/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie&#34;&gt;emie&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie/support&#34;&gt;support&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;bettinas-anfrage-slack&#34;&gt;Bettina&amp;rsquo;s Anfrage (Slack)&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Bettina Blacher 11:43 (2025-10-10)&#xA;@Andi auf der wimmer.kportal.io Instanz wird das Zertifikat (PDF) beim &#xA;Bestätigungsmail nicht mitgesendet. Warum? wir können das doch? - oder?&#xA;Variante 1: ist die bevorzugte: wir senden das PDF mit&#xA;Variante 2: wir können es nicht mitsenden, dann müssen wir den Text für das Bestätigungsmail abändern.&#xA;dort wo steht Besuchen Sie Ihr Dashboard. Irgend einen Satz: &#xA;Um das Zertifikat downzuloaden (das ist gleich ich nicht wirklich ein Wort) gehen Sie bitte auf Ihr Dashboard.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;mein-vorschlag&#34;&gt;Mein Vorschlag&lt;/h2&gt;&#xA;&lt;p&gt;Der String in der Mail Template kann geändert werden und muss dann in alle Sprachen&#xA;übersetzt werden. (Kann ich mit der KI machen)&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

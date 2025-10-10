@@ -7,20 +7,27 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Andi Altendorfer</copyright>
-    <lastBuildDate>Fri, 10 Oct 2025 08:00:42 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 10 Oct 2025 12:10:14 +0200</lastBuildDate>
     <atom:link href="https://iboard.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Support</title>
-      <link>https://iboard.github.io/tags/support/</link>
-      <pubDate>Fri, 10 Oct 2025 08:00:42 +0200</pubDate>
-      <guid>https://iboard.github.io/tags/support/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Ematrix</title>
       <link>https://iboard.github.io/tags/ematrix/</link>
-      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Oct 2025 12:10:14 +0200</pubDate>
       <guid>https://iboard.github.io/tags/ematrix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emie</title>
+      <link>https://iboard.github.io/tags/emie/</link>
+      <pubDate>Fri, 10 Oct 2025 12:10:14 +0200</pubDate>
+      <guid>https://iboard.github.io/tags/emie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Support</title>
+      <link>https://iboard.github.io/tags/support/</link>
+      <pubDate>Fri, 10 Oct 2025 12:10:14 +0200</pubDate>
+      <guid>https://iboard.github.io/tags/support/</guid>
       <description></description>
     </item>
     <item>
@@ -28,13 +35,6 @@
       <link>https://iboard.github.io/tags/bugfixes/</link>
       <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://iboard.github.io/tags/bugfixes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Emie</title>
-      <link>https://iboard.github.io/tags/emie/</link>
-      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://iboard.github.io/tags/emie/</guid>
       <description></description>
     </item>
     <item>

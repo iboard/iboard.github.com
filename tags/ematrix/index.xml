@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Andi Altendorfer</copyright>
-    <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Oct 2025 12:10:14 +0200</lastBuildDate>
     <atom:link href="https://iboard.github.io/tags/ematrix/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EMIE System 1.0 - Support Issues</title>
@@ -120,6 +120,13 @@
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://iboard.github.io/about/ematrix/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m a proud employee and CIO of e-Matrix Innovations since 2019.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://emie-staging.kportal.io/images/ematrix.png&#34; alt=&#34;e-Matrix Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;hello&#34;&gt;Hello!&lt;/h2&gt;&#xA;&lt;p&gt;We are e-Matrix Innovations.&lt;br&gt;&#xA;We design and develop modern web solutions especially for Health&amp;amp;Safety instructions and&#xA;visitor trainings as well as the e-learning medias necessary for these solutions and other&#xA;topics like cyber security and GDPR.&lt;/p&gt;&#xA;&lt;h2 id=&#34;headquater&#34;&gt;Headquater&lt;/h2&gt;&#xA;&lt;p&gt;e-Matrix Innovations GmbH&lt;br&gt;&#xA;Stelzhamer Strasse 9/1&lt;br&gt;&#xA;4600 Wels, Austria&lt;/p&gt;&#xA;&lt;h2 id=&#34;workplace-safety-and-visitor-instruction-systems&#34;&gt;Workplace Safety and Visitor Instruction Systems&lt;/h2&gt;&#xA;&lt;h2 id=&#34;from-design-to-go-live&#34;&gt;from Design to Go Live&lt;/h2&gt;&#xA;&lt;h2 id=&#34;visit-our-web-page-at--httpse-matrixat&#34;&gt;Visit our web page at ➛ &lt;a href=&#34;https://e-matrix.at&#34;&gt;https://e-matrix.at&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;protected-content-for-e-matrix-staff&#34;&gt;Protected content for e-Matrix staff&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;/ematrix&lt;/a&gt; - protected by user/password.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wimmer Medienhaus Mails</title>
+      <link>https://iboard.github.io/ematrix/emie/support/2025-10-10-wimmer-medienhaus-mails/</link>
+      <pubDate>Fri, 10 Oct 2025 12:10:14 +0200</pubDate>
+      <guid>https://iboard.github.io/ematrix/emie/support/2025-10-10-wimmer-medienhaus-mails/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie&#34;&gt;emie&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie/support&#34;&gt;support&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;bettinas-anfrage-slack&#34;&gt;Bettina&amp;rsquo;s Anfrage (Slack)&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Bettina Blacher 11:43 (2025-10-10)&#xA;@Andi auf der wimmer.kportal.io Instanz wird das Zertifikat (PDF) beim &#xA;Bestätigungsmail nicht mitgesendet. Warum? wir können das doch? - oder?&#xA;Variante 1: ist die bevorzugte: wir senden das PDF mit&#xA;Variante 2: wir können es nicht mitsenden, dann müssen wir den Text für das Bestätigungsmail abändern.&#xA;dort wo steht Besuchen Sie Ihr Dashboard. Irgend einen Satz: &#xA;Um das Zertifikat downzuloaden (das ist gleich ich nicht wirklich ein Wort) gehen Sie bitte auf Ihr Dashboard.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;mein-vorschlag&#34;&gt;Mein Vorschlag&lt;/h2&gt;&#xA;&lt;p&gt;Der String in der Mail Template kann geändert werden und muss dann in alle Sprachen&#xA;übersetzt werden. (Kann ich mit der KI machen)&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
