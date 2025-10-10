@@ -17,6 +17,13 @@
       <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie&#34;&gt;emie&lt;/a&gt; | &lt;strong&gt;&lt;a href=&#34;https://iboard.github.io/ematrix/emie/support&#34;&gt;support&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Articles about support issues on old &lt;em&gt;emie&lt;/em&gt;-instances.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>How to run a module in production</title>
+      <link>https://iboard.github.io/ematrix/emie/2025-10-10-howto-run-a-module-in-production/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/emie/2025-10-10-howto-run-a-module-in-production/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie&#34;&gt;emie&lt;/a&gt; | &lt;em&gt;&lt;strong&gt;How To&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Every emie-instance has a mapped path &lt;code&gt;data&lt;/code&gt; which is shared on the host.&#xA;So, you can write any code in &lt;code&gt;data/your_code.ex&lt;/code&gt; and run it from an&#xA;iex-session in production.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ cd path/to/emie-instance&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ source .setup_env&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ docker-compose exec app iex -S mix &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;iex&amp;gt; c &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;data/your_code.ex&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;iex&amp;gt; YourModule.your_function&lt;span style=&#34;color:#f92672&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
       <title>EMIE System 1.0 - Bugfix Lebensraeume</title>
       <link>https://iboard.github.io/ematrix/emie/bugfixes/2025-10-09-lebensraeume/</link>
       <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
