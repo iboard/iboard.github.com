@@ -17,7 +17,7 @@
       <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie&#34;&gt;emie&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie/support&#34;&gt;support&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;bettinas-anfrage-slack&#34;&gt;Bettina&amp;rsquo;s Anfrage (Slack)&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Bettina Blacher 11:43 (2025-10-10)&#xA;@Andi auf der wimmer.kportal.io Instanz wird das Zertifikat (PDF) beim &#xA;Bestätigungsmail nicht mitgesendet. Warum? wir können das doch? - oder?&#xA;Variante 1: ist die bevorzugte: wir senden das PDF mit&#xA;Variante 2: wir können es nicht mitsenden, dann müssen wir den Text für das Bestätigungsmail abändern.&#xA;dort wo steht Besuchen Sie Ihr Dashboard. Irgend einen Satz: &#xA;Um das Zertifikat downzuloaden (das ist gleich ich nicht wirklich ein Wort) gehen Sie bitte auf Ihr Dashboard.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;mein-vorschlag&#34;&gt;Mein Vorschlag&lt;/h2&gt;&#xA;&lt;p&gt;Der String in der Mail Template kann geändert werden und muss dann in alle Sprachen&#xA;übersetzt werden. (Kann ich mit der KI machen)&lt;/p&gt;</description>
     </item>
     <item>
-      <title>2025 10 10 Leoben Supervisors</title>
+      <title>Leoben Supervisors Loop</title>
       <link>https://iboard.github.io/ematrix/emie/support/2025-10-10-leoben-supervisors/</link>
       <pubDate>Fri, 10 Oct 2025 08:00:42 +0200</pubDate>
       <guid>https://iboard.github.io/ematrix/emie/support/2025-10-10-leoben-supervisors/</guid>
