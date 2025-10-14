@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Andi Altendorfer</copyright>
-    <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iboard.github.io/categories/emie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Expand expires at for courses in Kindberg</title>
+      <link>https://iboard.github.io/ematrix/emie/support/2025-10-14-expand-expire-at-kindberg/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/emie/support/2025-10-14-expand-expire-at-kindberg/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iboard.github.io/ematrix&#34;&gt;ematrix&lt;/a&gt; | &lt;a href=&#34;https://iboard.github.io/ematrix/emie&#34;&gt;emie&lt;/a&gt; | &lt;em&gt;&lt;strong&gt;Expand Expires At / Kindberg EMPINT&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;copy-and-paste-values-from-spreadsheet-tab-separated&#34;&gt;Copy and paste values from Spreadsheet (Tab Separated)&lt;/h1&gt;&#xA;&lt;p&gt;Example: Open the Spreadsheet with Numbers. Select all rows and used colums&#xA;to copy and paste into @laser ~s&amp;quot;&amp;ldquo;&amp;ldquo;paste here&amp;rdquo;&amp;rdquo;&amp;quot;&lt;/p&gt;&#xA;&lt;h1 id=&#34;run1-uses-laserschutz-sauergas-and-gift&#34;&gt;run/1 uses @laserschutz, @sauergas, and @gift.&lt;/h1&gt;&#xA;&lt;p&gt;The function run/1 is hardcoded for these specific data.&#xA;If you want to run it with other data. Copy and paste the values&#xA;and modify the function run/1 for you needs.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>EMIE System 1.0 - Support Issues</title>
       <link>https://iboard.github.io/ematrix/emie/support/</link>
