@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Securing Directories with Nginx Basic Auth - Andi Altendorfer</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Protecting Your Web Content
+Sometimes you have content on your website that you don&rsquo;t want to be publicly accessible. Whether it&rsquo;s a private section for family and friends, or a staging area for a new project, Nginx&rsquo;s basic authentication is a simple and effective way to password-protect parts of your site.
+In this post, we&rsquo;ll walk through how to protect a directory called /private and everything inside it.
+1. Creating the Password File
+First, we need to create a .htpasswd file that will store our username and password. The password needs to be encrypted. We can use the htpasswd command-line tool for this. If you don&rsquo;t have it, you can usually install it with apache2-utils." />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="https://iboard.github.io/posts/2025-10-14-nginx-basic-auth/">
+  <meta property="og:site_name" content="Andi Altendorfer">
+  <meta property="og:title" content="Securing Directories with Nginx Basic Auth">
+  <meta property="og:description" content="Protecting Your Web Content Sometimes you have content on your website that you don’t want to be publicly accessible. Whether it’s a private section for family and friends, or a staging area for a new project, Nginx’s basic authentication is a simple and effective way to password-protect parts of your site.
+In this post, we’ll walk through how to protect a directory called /private and everything inside it.
+1. Creating the Password File First, we need to create a .htpasswd file that will store our username and password. The password needs to be encrypted. We can use the htpasswd command-line tool for this. If you don’t have it, you can usually install it with apache2-utils.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-10-14T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-10-14T00:00:00+00:00">
+    <meta property="article:tag" content="Nginx">
+    <meta property="article:tag" content="Security">
+    <meta property="article:tag" content="Webdev">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Securing Directories with Nginx Basic Auth">
+  <meta name="twitter:description" content="Protecting Your Web Content Sometimes you have content on your website that you don’t want to be publicly accessible. Whether it’s a private section for family and friends, or a staging area for a new project, Nginx’s basic authentication is a simple and effective way to password-protect parts of your site.
+In this post, we’ll walk through how to protect a directory called /private and everything inside it.
+1. Creating the Password File First, we need to create a .htpasswd file that will store our username and password. The password needs to be encrypted. We can use the htpasswd command-line tool for this. If you don’t have it, you can usually install it with apache2-utils.">
+
+        <link href="https://iboard.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://iboard.github.io/css/main.e67317426819e55d53e25594c6c2f5d9954e3b7bd60919d8d75ab322810b0494.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://iboard.github.io/css/dark.441e799130b3fa0fefac68d1528dc12b07af1e8307f46cf17bf48f895b2efeef.css"  disabled />
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://iboard.github.io/">Andi Altendorfer</a>
+	</div>
+	<nav>
+		
+		<a href="/">cd /</a>
+		
+		<a href="/craftsman">/craft</a>
+		
+		<a href="/posts">/posts</a>
+		
+		<a href="/archives">/archives</a>
+		
+		<a href="/about">/about</a>
+		
+		<a href="/ematrix">/x</a>
+		
+		<a href="/categories">/c</a>
+		
+		<a href="/tags">#</a>
+		
+		| <span id="dark-mode-toggle" onclick="toggleTheme()"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#sun" />
+</svg></span>
+		<script src="https://iboard.github.io/js/themetoggle.js"></script>
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">Securing Directories with Nginx Basic Auth</h1>
+          <div class="meta">
+            Posted on Oct 14, 2025
+          </div>
+        </div>
+        
+      
+      
+      <div class="right-toc">
+        <div class=""><a href="/tags">#TAGS</a>
+          <div class="post-tags">
+            
+            
+            <nav class="nav tags">
+              <ul class="tags">
+                
+                <li><a href="/tags/nginx">nginx</a></li>
+                
+                <li><a href="/tags/security">security</a></li>
+                
+                <li><a href="/tags/webdev">webdev</a></li>
+                
+              </ul>
+            </nav>
+            
+            
+          </div>
+        <strong>#TOC</strong>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#protecting-your-web-content">Protecting Your Web Content</a>
+      <ul>
+        <li><a href="#1-creating-the-password-file">1. Creating the Password File</a></li>
+        <li><a href="#2-configuring-nginx">2. Configuring Nginx</a></li>
+        <li><a href="#3-reloading-nginx">3. Reloading Nginx</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+      </div>
+      
+      
+        <section class="body"><h2 id="protecting-your-web-content">Protecting Your Web Content</h2>
+<p>Sometimes you have content on your website that you don&rsquo;t want to be publicly accessible. Whether it&rsquo;s a private section for family and friends, or a staging area for a new project, Nginx&rsquo;s basic authentication is a simple and effective way to password-protect parts of your site.</p>
+<p>In this post, we&rsquo;ll walk through how to protect a directory called <code>/private</code> and everything inside it.</p>
+<h3 id="1-creating-the-password-file">1. Creating the Password File</h3>
+<p>First, we need to create a <code>.htpasswd</code> file that will store our username and password. The password needs to be encrypted. We can use the <code>htpasswd</code> command-line tool for this. If you don&rsquo;t have it, you can usually install it with <code>apache2-utils</code>.</p>
+<p>Let&rsquo;s create a file with the username <code>private</code> and the password <code>secret</code>. The <code>-c</code> flag creates a new file. For subsequent users, you would omit this flag.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>htpasswd -c /etc/nginx/.htpasswd private
+</span></span></code></pre></div><p>You will be prompted to enter the password. Type <code>secret</code> and press enter.</p>
+<p>The resulting <code>/etc/nginx/.htpasswd</code> file will contain a line similar to this:</p>
+<pre tabindex="0"><code>private:$apr1$bJ.6g.8B$Z3gO8v.A.d5a.r/2zI3Ea/
+</code></pre><h3 id="2-configuring-nginx">2. Configuring Nginx</h3>
+<p>Now, we need to tell Nginx to protect the <code>/private</code> location. We do this by adding a <code>location</code> block to our server configuration.</p>
+<p>Here’s an example of what your Nginx configuration might look like. This assumes your website files are served from <code>/var/www/html</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-nginx" data-lang="nginx"><span style="display:flex;"><span><span style="color:#66d9ef">server</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">listen</span> <span style="color:#ae81ff">80</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">server_name</span> <span style="color:#e6db74">your_domain.com</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">root</span> <span style="color:#e6db74">/var/www/html</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># This is the public part of your site
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">location</span> <span style="color:#e6db74">/</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">try_files</span> $uri $uri/ =<span style="color:#ae81ff">404</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># This is the protected directory
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">location</span> <span style="color:#e6db74">/private</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">auth_basic</span> <span style="color:#e6db74">&#34;Restricted</span> <span style="color:#e6db74">Content&#34;</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">auth_basic_user_file</span> <span style="color:#e6db74">/etc/nginx/.htpasswd</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">try_files</span> $uri $uri/ =<span style="color:#ae81ff">404</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Let&rsquo;s break down the important parts:</p>
+<ol>
+<li><code>location /private</code>: This tells Nginx to apply these rules to any request that starts with <code>/private</code>.</li>
+<li><code>auth_basic &quot;Restricted Content&quot;</code>: This sets the message that will be displayed in the password prompt.</li>
+<li><code>auth_basic_user_file /etc/nginx/.htpasswd</code>: This tells Nginx where to find the password file.</li>
+</ol>
+<h3 id="3-reloading-nginx">3. Reloading Nginx</h3>
+<p>After you&rsquo;ve saved your configuration, you need to reload Nginx for the changes to take effect.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl reload nginx
+</span></span></code></pre></div><p>Now, if you try to access <code>http://your_domain.com/private</code> in your browser, you&rsquo;ll be prompted for a username and password.</p>
+<p>That&rsquo;s it! You&rsquo;ve successfully secured a directory on your website.</p>
+</section>
+      </div>
+
+
+    </article>
+</main>
+<footer>
+  <div class="footer-wrap -small"><a class="soc" href="https://github.com/iboard" rel="me" title="GitHub"
+      ><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
+</svg></a
+    ><a class="border"></a><a class="soc" href="https://bsky.app/altendorfer.at" rel="me" title="Bsky"
+      ><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#target" />
+</svg></a
+    ><a class="border"></a><div class="footer-info">
+      2025 
+      <a href="/about">© Andi Altendorfer</a> | 
+      <a href="/about/license">License</a> | Built with
+      <a href="https://gohugo.io">Hugo</a>
+    </div>
+  </div>
+</footer>
+  
+</div>
+    </body>
+</html>

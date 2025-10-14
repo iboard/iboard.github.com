@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Andi Altendorfer</copyright>
-    <lastBuildDate>Sun, 05 Oct 2025 09:03:09 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iboard.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securing Directories with Nginx Basic Auth</title>
+      <link>https://iboard.github.io/posts/2025-10-14-nginx-basic-auth/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-10-14-nginx-basic-auth/</guid>
+      <description>&lt;h2 id=&#34;protecting-your-web-content&#34;&gt;Protecting Your Web Content&lt;/h2&gt;&#xA;&lt;p&gt;Sometimes you have content on your website that you don&amp;rsquo;t want to be publicly accessible. Whether it&amp;rsquo;s a private section for family and friends, or a staging area for a new project, Nginx&amp;rsquo;s basic authentication is a simple and effective way to password-protect parts of your site.&lt;/p&gt;&#xA;&lt;p&gt;In this post, we&amp;rsquo;ll walk through how to protect a directory called &lt;code&gt;/private&lt;/code&gt; and everything inside it.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-creating-the-password-file&#34;&gt;1. Creating the Password File&lt;/h3&gt;&#xA;&lt;p&gt;First, we need to create a &lt;code&gt;.htpasswd&lt;/code&gt; file that will store our username and password. The password needs to be encrypted. We can use the &lt;code&gt;htpasswd&lt;/code&gt; command-line tool for this. If you don&amp;rsquo;t have it, you can usually install it with &lt;code&gt;apache2-utils&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Blame the AI</title>
       <link>https://iboard.github.io/posts/2025-10-05-blame-the-ai/</link>

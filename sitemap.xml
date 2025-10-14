@@ -107,7 +107,22 @@
     <loc>https://iboard.github.io/categories/emie/</loc>
     <lastmod>2025-10-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://iboard.github.io/tags/nginx/</loc>
+    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iboard.github.io/posts/</loc>
+    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iboard.github.io/posts/2025-10-14-nginx-basic-auth/</loc>
+    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iboard.github.io/tags/security/</loc>
+    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://iboard.github.io/tags/</loc>
+    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iboard.github.io/tags/webdev/</loc>
     <lastmod>2025-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/tags/emie/</loc>
@@ -162,9 +177,6 @@
     <lastmod>2025-10-05T09:03:09+02:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/categories/comments/</loc>
-    <lastmod>2025-10-05T09:03:09+02:00</lastmod>
-  </url><url>
-    <loc>https://iboard.github.io/posts/</loc>
     <lastmod>2025-10-05T09:03:09+02:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/private/2025-10-04-familientreffen/</loc>
