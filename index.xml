@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Andi Altendorfer</copyright>
-    <lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iboard.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Expand expires at for courses in Kindberg</title>
@@ -155,6 +155,13 @@
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://iboard.github.io/about/impress/</guid>
       <description>&lt;h1 id=&#34;contact&#34;&gt;Contact&lt;/h1&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-elixir&#34; data-lang=&#34;elixir&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;%&lt;span style=&#34;color:#a6e22e&#34;&gt;Person&lt;/span&gt;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;first_name&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Andreas&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;last_name&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Altendorfer&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;country&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Austria&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;city&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Haid&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;zip&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;4053&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;email&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;andreas -at- altendorfer -dot- at&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;phone&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;+austria-six-seven-six–seven-five-five-nine-six-null-three&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;When using content from my pages please read the &lt;a href=&#34;https://iboard.github.io/about/license&#34;&gt;license&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you want to &lt;strong&gt;talk about business&lt;/strong&gt;, please visit &lt;a href=&#34;https://iboard.github.io/about/ematrix/&#34;&gt;e-Matrix Innovations&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Big Bang of the World Wide Web</title>
+      <link>https://iboard.github.io/posts/2025-10-24-big-bang/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-10-24-big-bang/</guid>
+      <description>&lt;p&gt;Today, I stumbled ober a YouTube Short about the first Internet pages, back in the 1990s.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-genesis-of-the-web&#34;&gt;The Genesis of the Web&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s take a journey back in time to the very beginning of the World Wide Web. It all started at CERN, the European Organization for Nuclear Research, with a proposal by Tim Berners-Lee. The goal was to create a system to share information among scientists.&lt;/p&gt;&#xA;&lt;p&gt;The very first website was hosted at &lt;code&gt;info.cern.ch&lt;/code&gt;. This site, which you can still visit today, provided information about the World Wide Web project itself. It explained what the web was, how to get a web browser, and how to set up a web server.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Securing Directories with Nginx Basic Auth</title>
