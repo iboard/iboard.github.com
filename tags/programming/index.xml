@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Andi Altendorfer</copyright>
-    <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iboard.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Never Look Back: A Phoenix Rises from Rails&#39; Ashes</title>
+      <link>https://iboard.github.io/posts/2025-11-07-never-look-back/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-11-07-never-look-back/</guid>
+      <description>&lt;h2 id=&#34;introduction-the-end-of-a-journey-the-start-of-another&#34;&gt;Introduction: The End of a Journey, The Start of Another&lt;/h2&gt;&#xA;&lt;p&gt;Every software developer has a path, a winding road of languages, frameworks, and philosophies that shapes their craft. My own journey has taken me through the structured landscapes of Pascal, the raw power of C++, and the wild, chaotic frontier of early PHP web development. For a long time, I was a journeyman, picking up tools as I needed them, solving problems, and moving on. Then came the era of frameworks, promising order, productivity, and a &amp;ldquo;right way&amp;rdquo; to build things. And for a significant part of the web&amp;rsquo;s history, the undisputed king of that era was Ruby on Rails.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Procrastinating Friday</title>
       <link>https://iboard.github.io/private/2025-10-10-procastinating-friday/</link>

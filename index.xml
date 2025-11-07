@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Andi Altendorfer</copyright>
-    <lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iboard.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Expand expires at for courses in Kindberg</title>
@@ -155,6 +155,13 @@
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://iboard.github.io/about/impress/</guid>
       <description>&lt;h1 id=&#34;contact&#34;&gt;Contact&lt;/h1&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-elixir&#34; data-lang=&#34;elixir&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;%&lt;span style=&#34;color:#a6e22e&#34;&gt;Person&lt;/span&gt;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;first_name&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Andreas&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;last_name&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Altendorfer&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;country&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Austria&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;city&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Haid&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;zip&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;4053&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;email&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;andreas -at- altendorfer -dot- at&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;phone&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;+austria-six-seven-six–seven-five-five-nine-six-null-three&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;When using content from my pages please read the &lt;a href=&#34;https://iboard.github.io/about/license&#34;&gt;license&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you want to &lt;strong&gt;talk about business&lt;/strong&gt;, please visit &lt;a href=&#34;https://iboard.github.io/about/ematrix/&#34;&gt;e-Matrix Innovations&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Never Look Back: A Phoenix Rises from Rails&#39; Ashes</title>
+      <link>https://iboard.github.io/posts/2025-11-07-never-look-back/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-11-07-never-look-back/</guid>
+      <description>&lt;h2 id=&#34;introduction-the-end-of-a-journey-the-start-of-another&#34;&gt;Introduction: The End of a Journey, The Start of Another&lt;/h2&gt;&#xA;&lt;p&gt;Every software developer has a path, a winding road of languages, frameworks, and philosophies that shapes their craft. My own journey has taken me through the structured landscapes of Pascal, the raw power of C++, and the wild, chaotic frontier of early PHP web development. For a long time, I was a journeyman, picking up tools as I needed them, solving problems, and moving on. Then came the era of frameworks, promising order, productivity, and a &amp;ldquo;right way&amp;rdquo; to build things. And for a significant part of the web&amp;rsquo;s history, the undisputed king of that era was Ruby on Rails.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Big Bang of the World Wide Web</title>

@@ -7,13 +7,34 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Andi Altendorfer</copyright>
-    <lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iboard.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Article</title>
       <link>https://iboard.github.io/categories/article/</link>
-      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://iboard.github.io/categories/article/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elixir</title>
+      <link>https://iboard.github.io/categories/elixir/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/categories/elixir/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Posts</title>
+      <link>https://iboard.github.io/categories/posts/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/categories/posts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Review</title>
+      <link>https://iboard.github.io/categories/review/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/categories/review/</guid>
       <description></description>
     </item>
     <item>
@@ -28,13 +49,6 @@
       <link>https://iboard.github.io/categories/emie/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://iboard.github.io/categories/emie/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Posts</title>
-      <link>https://iboard.github.io/categories/posts/</link>
-      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://iboard.github.io/categories/posts/</guid>
       <description></description>
     </item>
     <item>
@@ -80,24 +94,10 @@
       <description></description>
     </item>
     <item>
-      <title>Elixir</title>
-      <link>https://iboard.github.io/categories/elixir/</link>
-      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://iboard.github.io/categories/elixir/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>About</title>
       <link>https://iboard.github.io/categories/about/</link>
       <pubDate>Fri, 19 Sep 2025 11:59:04 +0200</pubDate>
       <guid>https://iboard.github.io/categories/about/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Articles</title>
-      <link>https://iboard.github.io/categories/articles/</link>
-      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://iboard.github.io/categories/articles/</guid>
       <description></description>
     </item>
     <item>
@@ -112,13 +112,6 @@
       <link>https://iboard.github.io/categories/devices/</link>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://iboard.github.io/categories/devices/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Review</title>
-      <link>https://iboard.github.io/categories/review/</link>
-      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://iboard.github.io/categories/review/</guid>
       <description></description>
     </item>
     <item>

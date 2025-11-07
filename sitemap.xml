@@ -93,21 +93,42 @@
     <lastmod>2025-09-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/categories/</loc>
-    <lastmod>2025-10-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/categories/article/</loc>
-    <lastmod>2025-10-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/</loc>
-    <lastmod>2025-10-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://iboard.github.io/tags/internet/</loc>
-    <lastmod>2025-10-24T00:00:00+00:00</lastmod>
+    <loc>https://iboard.github.io/categories/elixir/</loc>
+    <lastmod>2025-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iboard.github.io/tags/elixir/</loc>
+    <lastmod>2025-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iboard.github.io/posts/2025-11-07-never-look-back/</loc>
+    <lastmod>2025-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iboard.github.io/categories/posts/</loc>
+    <lastmod>2025-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/posts/</loc>
-    <lastmod>2025-10-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iboard.github.io/tags/programming/</loc>
+    <lastmod>2025-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iboard.github.io/categories/review/</loc>
+    <lastmod>2025-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/tags/</loc>
+    <lastmod>2025-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iboard.github.io/tags/webdev/</loc>
+    <lastmod>2025-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iboard.github.io/tags/internet/</loc>
     <lastmod>2025-10-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/posts/2025-10-24-big-bang/</loc>
@@ -131,9 +152,6 @@
     <loc>https://iboard.github.io/tags/security/</loc>
     <lastmod>2025-10-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://iboard.github.io/tags/webdev/</loc>
-    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://iboard.github.io/tags/emie/</loc>
     <lastmod>2025-10-10T12:10:14+02:00</lastmod>
   </url><url>
@@ -149,9 +167,6 @@
     <loc>https://iboard.github.io/tags/automation/</loc>
     <lastmod>2025-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://iboard.github.io/categories/posts/</loc>
-    <lastmod>2025-10-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://iboard.github.io/categories/private/</loc>
     <lastmod>2025-10-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -159,9 +174,6 @@
     <lastmod>2025-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/tags/procrastination/</loc>
-    <lastmod>2025-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iboard.github.io/tags/programming/</loc>
     <lastmod>2025-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/categories/support/</loc>
@@ -218,12 +230,6 @@
     <loc>https://iboard.github.io/tags/code/</loc>
     <lastmod>2025-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://iboard.github.io/categories/elixir/</loc>
-    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iboard.github.io/tags/elixir/</loc>
-    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://iboard.github.io/categories/about/</loc>
     <lastmod>2025-09-19T11:59:04+02:00</lastmod>
   </url><url>
@@ -235,9 +241,6 @@
   </url><url>
     <loc>https://iboard.github.io/tags/license/</loc>
     <lastmod>2025-09-19T11:59:04+02:00</lastmod>
-  </url><url>
-    <loc>https://iboard.github.io/categories/articles/</loc>
-    <lastmod>2025-09-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/tags/collaboration/</loc>
     <lastmod>2025-09-19T00:00:00+00:00</lastmod>
@@ -258,9 +261,6 @@
     <lastmod>2025-09-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/tags/productivity/</loc>
-    <lastmod>2025-09-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iboard.github.io/categories/review/</loc>
     <lastmod>2025-09-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/tags/review/</loc>
