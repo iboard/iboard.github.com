@@ -7,14 +7,63 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Andi Altendorfer</copyright>
-    <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iboard.github.io/categories/elixir/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Never Look Back: A Phoenix Rises from Rails&#39; Ashes</title>
-      <link>https://iboard.github.io/posts/2025-11-07-never-look-back/</link>
+      <title>Never Look Back - Introduction</title>
+      <link>https://iboard.github.io/posts/2025-11-01-never-look-back-part-1/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-11-01-never-look-back-part-1/</guid>
+      <description>An introduction to the &amp;lsquo;Never Look Back&amp;rsquo; series, detailing the author&amp;rsquo;s journey from Ruby on Rails to Elixir and Phoenix.</description>
+    </item>
+    <item>
+      <title>Never Look Back - The Allure of the Ruby Slippers</title>
+      <link>https://iboard.github.io/posts/2025-11-02-never-look-back-part-2/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-11-02-never-look-back-part-2/</guid>
+      <description>Chapter 1: Exploring the initial appeal and powerful features of Ruby on Rails, including Convention over Configuration and ActiveRecord.</description>
+    </item>
+    <item>
+      <title>Never Look Back - The Cracks in the Foundation</title>
+      <link>https://iboard.github.io/posts/2025-11-03-never-look-back-part-3/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-11-03-never-look-back-part-3/</guid>
+      <description>Chapter 2: Discussing the challenges and limitations encountered with Ruby on Rails as applications scale, including magic becoming obfuscation, concurrency issues, and architectural patterns.</description>
+    </item>
+    <item>
+      <title>Never Look Back - A New Paradigm: The Elixir of Life</title>
+      <link>https://iboard.github.io/posts/2025-11-04-never-look-back-part-4/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-11-04-never-look-back-part-4/</guid>
+      <description>Chapter 3: Introducing Elixir as a new paradigm, focusing on its functional programming approach, pattern matching, and the robust BEAM virtual machine.</description>
+    </item>
+    <item>
+      <title>Never Look Back - Phoenix - The Framework That Respects You</title>
+      <link>https://iboard.github.io/posts/2025-11-05-never-look-back-part-5/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-11-05-never-look-back-part-5/</guid>
+      <description>Chapter 4: Delving into the Phoenix framework, highlighting its explicit design, Ecto for data handling, and Plug for composable architecture.</description>
+    </item>
+    <item>
+      <title>Never Look Back - The Real-Time Revolution with LiveView</title>
+      <link>https://iboard.github.io/posts/2025-11-06-never-look-back-part-6/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-11-06-never-look-back-part-6/</guid>
+      <description>Chapter 5: Exploring Phoenix LiveView, a revolutionary approach to building real-time user experiences with minimal JavaScript.</description>
+    </item>
+    <item>
+      <title>Never Look Back - Performance, Scalability, and Peace of Mind</title>
+      <link>https://iboard.github.io/posts/2025-11-07-never-look-back-part-7/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://iboard.github.io/posts/2025-11-07-never-look-back/</guid>
-      <description>&lt;h2 id=&#34;introduction-the-end-of-a-journey-the-start-of-another&#34;&gt;Introduction: The End of a Journey, The Start of Another&lt;/h2&gt;&#xA;&lt;p&gt;Every software developer has a path, a winding road of languages, frameworks, and philosophies that shapes their craft. My own journey has taken me through the structured landscapes of Pascal, the raw power of C++, and the wild, chaotic frontier of early PHP web development. For a long time, I was a journeyman, picking up tools as I needed them, solving problems, and moving on. Then came the era of frameworks, promising order, productivity, and a &amp;ldquo;right way&amp;rdquo; to build things. And for a significant part of the web&amp;rsquo;s history, the undisputed king of that era was Ruby on Rails.&lt;/p&gt;</description>
+      <guid>https://iboard.github.io/posts/2025-11-07-never-look-back-part-7/</guid>
+      <description>Chapter 6: Discussing the performance, scalability, and peace of mind offered by Elixir and the BEAM, including massive concurrency and supervision trees.</description>
+    </item>
+    <item>
+      <title>Never Look Back - Why I Haven&#39;t Looked Back</title>
+      <link>https://iboard.github.io/posts/2025-11-08-never-look-back-part-8/</link>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-11-08-never-look-back-part-8/</guid>
+      <description>Chapter 7: Explaining why the author hasn&amp;rsquo;t looked back at Ruby on Rails, highlighting the benefits of Elixir and Phoenix for modern web development.</description>
     </item>
     <item>
       <title>#hex My public Hex Packages</title>

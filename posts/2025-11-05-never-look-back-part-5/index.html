@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Never Look Back - Phoenix - The Framework That Respects You - Andi Altendorfer</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Chapter 4: Delving into the Phoenix framework, highlighting its explicit design, Ecto for data handling, and Plug for composable architecture." />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="https://iboard.github.io/posts/2025-11-05-never-look-back-part-5/">
+  <meta property="og:site_name" content="Andi Altendorfer">
+  <meta property="og:title" content="Never Look Back - Phoenix - The Framework That Respects You">
+  <meta property="og:description" content="Chapter 4: Delving into the Phoenix framework, highlighting its explicit design, Ecto for data handling, and Plug for composable architecture.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-11-05T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-11-05T00:00:00+00:00">
+    <meta property="article:tag" content="Elixir">
+    <meta property="article:tag" content="Programming">
+    <meta property="article:tag" content="Webdev">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Never Look Back - Phoenix - The Framework That Respects You">
+  <meta name="twitter:description" content="Chapter 4: Delving into the Phoenix framework, highlighting its explicit design, Ecto for data handling, and Plug for composable architecture.">
+
+        <link href="https://iboard.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://iboard.github.io/css/main.e67317426819e55d53e25594c6c2f5d9954e3b7bd60919d8d75ab322810b0494.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://iboard.github.io/css/dark.441e799130b3fa0fefac68d1528dc12b07af1e8307f46cf17bf48f895b2efeef.css"  disabled />
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://iboard.github.io/">Andi Altendorfer</a>
+	</div>
+	<nav>
+		
+		<a href="/">cd /</a>
+		
+		<a href="/craftsman">/craft</a>
+		
+		<a href="/posts">/posts</a>
+		
+		<a href="/archives">/archives</a>
+		
+		<a href="/about">/about</a>
+		
+		<a href="/ematrix">/x</a>
+		
+		<a href="/categories">/c</a>
+		
+		<a href="/tags">#</a>
+		
+		| <span id="dark-mode-toggle" onclick="toggleTheme()"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#sun" />
+</svg></span>
+		<script src="https://iboard.github.io/js/themetoggle.js"></script>
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">Never Look Back - Phoenix - The Framework That Respects You</h1>
+          <div class="meta">
+            Posted on Nov 5, 2025
+          </div>
+        </div>
+        
+      
+      
+      <div class="right-toc">
+        <div class=""><a href="/tags">#TAGS</a>
+          <div class="post-tags">
+            
+            
+            <nav class="nav tags">
+              <ul class="tags">
+                
+                <li><a href="/tags/elixir">elixir</a></li>
+                
+                <li><a href="/tags/programming">programming</a></li>
+                
+                <li><a href="/tags/webdev">webdev</a></li>
+                
+              </ul>
+            </nav>
+            
+            
+          </div>
+        <strong>#TOC</strong>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#chapter-4-phoenix---the-framework-that-respects-you">Chapter 4: Phoenix - The Framework That Respects You</a></li>
+  </ul>
+</nav>
+        </div>
+      </div>
+      
+      
+        <section class="body"><h2 id="chapter-4-phoenix---the-framework-that-respects-you">Chapter 4: Phoenix - The Framework That Respects You</h2>
+<p>If Elixir is the language, Phoenix is its web-facing manifestation. And while it shares some superficial similarities with Rails (it has controllers, views, and a router), its philosophy is fundamentally different. Phoenix values explicitness over magic.</p>
+<ol>
+<li>
+<p><strong>Ecto and Changesets: Sanity in Data Handling</strong></p>
+<p>Ecto is the database wrapper and query language for Phoenix. It is not an ActiveRecord clone. Its most important innovation is the <code>Changeset</code>.</p>
+<p>In Rails, validation rules live on the model. When you call <code>model.valid?</code>, it checks its internal state. When you call <code>model.update(params)</code>, it tries to update its attributes and save, all in one go.</p>
+<p>In Phoenix, data and validation are decoupled. A changeset is a dedicated data structure that represents a <em>proposed change</em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elixir" data-lang="elixir"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> changeset(user, attrs) <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>  user
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">|&gt;</span> cast(attrs, [<span style="color:#e6db74">:name</span>, <span style="color:#e6db74">:email</span>])
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">|&gt;</span> validate_required([<span style="color:#e6db74">:name</span>, <span style="color:#e6db74">:email</span>])
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">|&gt;</span> validate_format(<span style="color:#e6db74">:email</span>, <span style="color:#e6db74">~r/@/</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">|&gt;</span> unique_constraint(<span style="color:#e6db74">:email</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p>This function takes a <code>user</code> struct and a map of <code>attrs</code> (the incoming parameters). It then pipes this data through a series of transformations and validations.</p>
+<ol>
+<li><code>cast</code>: Specifies which attributes are allowed to be changed. This is a security-first default.</li>
+<li><code>validate_required</code>: Checks for presence.</li>
+<li><code>validate_format</code>: Checks against a regex.</li>
+<li><code>unique_constraint</code>: Checks for uniqueness at the database level.</li>
+</ol>
+<p>The key is that this function <em>returns</em> a changeset. The changeset contains the original data, the proposed changes, a list of validations, and a <code>valid?</code> flag. No side effects have occurred. The database has not been touched.</p>
+<p>Your controller then explicitly uses this changeset to perform the database operation:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elixir" data-lang="elixir"><span style="display:flex;"><span><span style="color:#66d9ef">case</span> <span style="color:#a6e22e">MyApp.Accounts</span><span style="color:#f92672">.</span>create_user(params) <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>  {<span style="color:#e6db74">:ok</span>, user} <span style="color:#f92672">-&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Redirect to show page</span>
+</span></span><span style="display:flex;"><span>  {<span style="color:#e6db74">:error</span>, %<span style="color:#a6e22e">Ecto.Changeset</span>{} <span style="color:#f92672">=</span> changeset} <span style="color:#f92672">-&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Re-render the form, passing the changeset back</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># so we can display detailed error messages.</span>
+</span></span><span style="display:flex;"><span>    render(conn, <span style="color:#e6db74">&#34;new.html&#34;</span>, <span style="color:#e6db74">changeset</span>: changeset)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p>This explicitness is liberating. The flow of data is crystal clear. There is no hidden state, no callback spaghetti. You can see the transformation of data from raw parameters to a validated changeset to a database insert. It&rsquo;s more verbose than Rails, but that verbosity buys you clarity, security, and maintainability.</p>
+</li>
+<li>
+<p><strong>Plug: A Composable Architecture</strong></p>
+<p>Phoenix is built on a specification called <code>Plug</code>. A plug is just a function that takes a connection struct (<code>conn</code>) and some options, and returns a (possibly modified) <code>conn</code>.</p>
+<p>Your entire request-response lifecycle is a pipeline of plugs.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elixir" data-lang="elixir"><span style="display:flex;"><span>pipeline <span style="color:#e6db74">:browser</span> <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>  plug <span style="color:#e6db74">:accepts</span>, [<span style="color:#e6db74">&#34;html&#34;</span>]
+</span></span><span style="display:flex;"><span>  plug <span style="color:#e6db74">:fetch_session</span>
+</span></span><span style="display:flex;"><span>  plug <span style="color:#e6db74">:fetch_live_flash</span>
+</span></span><span style="display:flex;"><span>  plug <span style="color:#e6db74">:protect_from_forgery</span>
+</span></span><span style="display:flex;"><span>  plug <span style="color:#e6db74">:put_secure_browser_headers</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p>This is from the router. When a request comes in, it flows through each of these plugs in order. <code>fetch_session</code> loads the session data into the <code>conn</code>. <code>protect_from_forgery</code> validates the CSRF token. Controllers themselves are just plugs. This is a beautifully simple and composable idea. It&rsquo;s Elixir&rsquo;s functional nature applied to the web. It&rsquo;s explicit, easy to follow, and easy to test.</p>
+</li>
+</ol>
+<hr>
+<p><a href="https://iboard.github.io/posts/2025-11-04-never-look-back-part-4/">Read prev: A New Paradigm: The Elixir of Life</a> | <a href="https://iboard.github.io/posts/2025-11-06-never-look-back-part-6/">Read next: The Real-Time Revolution with LiveView</a></p>
+</section>
+      </div>
+
+
+    </article>
+</main>
+<footer>
+  <div class="footer-wrap -small"><a class="soc" href="https://github.com/iboard" rel="me" title="GitHub"
+      ><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
+</svg></a
+    ><a class="border"></a><a class="soc" href="https://bsky.app/altendorfer.at" rel="me" title="Bsky"
+      ><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#target" />
+</svg></a
+    ><a class="border"></a><div class="footer-info">
+      2025 
+      <a href="/about">© Andi Altendorfer</a> | 
+      <a href="/about/license">License</a> | Built with
+      <a href="https://gohugo.io">Hugo</a>
+    </div>
+  </div>
+</footer>
+  
+</div>
+    </body>
+</html>

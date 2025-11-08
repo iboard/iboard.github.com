@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Never Look Back - The Allure of the Ruby Slippers - Andi Altendorfer</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Chapter 1: Exploring the initial appeal and powerful features of Ruby on Rails, including Convention over Configuration and ActiveRecord." />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="https://iboard.github.io/posts/2025-11-02-never-look-back-part-2/">
+  <meta property="og:site_name" content="Andi Altendorfer">
+  <meta property="og:title" content="Never Look Back - The Allure of the Ruby Slippers">
+  <meta property="og:description" content="Chapter 1: Exploring the initial appeal and powerful features of Ruby on Rails, including Convention over Configuration and ActiveRecord.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-11-02T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-11-02T00:00:00+00:00">
+    <meta property="article:tag" content="Elixir">
+    <meta property="article:tag" content="Programming">
+    <meta property="article:tag" content="Webdev">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Never Look Back - The Allure of the Ruby Slippers">
+  <meta name="twitter:description" content="Chapter 1: Exploring the initial appeal and powerful features of Ruby on Rails, including Convention over Configuration and ActiveRecord.">
+
+        <link href="https://iboard.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://iboard.github.io/css/main.e67317426819e55d53e25594c6c2f5d9954e3b7bd60919d8d75ab322810b0494.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://iboard.github.io/css/dark.441e799130b3fa0fefac68d1528dc12b07af1e8307f46cf17bf48f895b2efeef.css"  disabled />
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://iboard.github.io/">Andi Altendorfer</a>
+	</div>
+	<nav>
+		
+		<a href="/">cd /</a>
+		
+		<a href="/craftsman">/craft</a>
+		
+		<a href="/posts">/posts</a>
+		
+		<a href="/archives">/archives</a>
+		
+		<a href="/about">/about</a>
+		
+		<a href="/ematrix">/x</a>
+		
+		<a href="/categories">/c</a>
+		
+		<a href="/tags">#</a>
+		
+		| <span id="dark-mode-toggle" onclick="toggleTheme()"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#sun" />
+</svg></span>
+		<script src="https://iboard.github.io/js/themetoggle.js"></script>
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">Never Look Back - The Allure of the Ruby Slippers</h1>
+          <div class="meta">
+            Posted on Nov 2, 2025
+          </div>
+        </div>
+        
+      
+      
+      <div class="right-toc">
+        <div class=""><a href="/tags">#TAGS</a>
+          <div class="post-tags">
+            
+            
+            <nav class="nav tags">
+              <ul class="tags">
+                
+                <li><a href="/tags/elixir">elixir</a></li>
+                
+                <li><a href="/tags/programming">programming</a></li>
+                
+                <li><a href="/tags/webdev">webdev</a></li>
+                
+              </ul>
+            </nav>
+            
+            
+          </div>
+        <strong>#TOC</strong>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#chapter-1-the-allure-of-the-ruby-slippers">Chapter 1: The Allure of the Ruby Slippers</a></li>
+  </ul>
+</nav>
+        </div>
+      </div>
+      
+      
+        <section class="body"><h2 id="chapter-1-the-allure-of-the-ruby-slippers">Chapter 1: The Allure of the Ruby Slippers</h2>
+<p>You can&rsquo;t talk about leaving Rails without first acknowledging its profound impact and undeniable appeal. To deny the genius of its design, especially for its time, would be disingenuous. When Rails exploded onto the scene, it was a revelation.</p>
+<ol>
+<li>
+<p><strong>The Magic of Convention over Configuration</strong></p>
+<p>The core philosophy of Rails was simple: let the framework make the decisions. Where do models go? In <code>app/models</code>. Controllers? <code>app/controllers</code>. The database table for the <code>User</code> model is <code>users</code>. This seems obvious now, but at the time, it eliminated countless hours of boilerplate configuration and debate.</p>
+<p>The pinnacle of this magic was the <code>rails new my_app</code> command. In a few moments, you had a fully structured, working web application, complete with a database connection, asset pipeline, and server. Then came scaffolding: <code>rails generate scaffold Post title:string content:text</code>. With one command, you had a model, a database migration, a controller with all seven RESTful actions, and the corresponding views. It felt like you were cheating. You could build a functional CRUD application in an afternoon. This was the &ldquo;10x developer&rdquo; promise made real, and it was incredibly powerful.</p>
+</li>
+<li>
+<p><strong>ActiveRecord and the Beauty of Ruby</strong></p>
+<p>Ruby itself was a huge part of the draw. It&rsquo;s a language designed for beauty and programmer happiness. The syntax is clean, expressive, and reads almost like English. Blocks, mixins, and metaprogramming capabilities made it incredibly flexible.</p>
+<p>ActiveRecord, the ORM (Object-Relational Mapper) for Rails, was a masterclass in leveraging this flexibility.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#75715e"># Find a user by ID</span>
+</span></span><span style="display:flex;"><span>user <span style="color:#f92672">=</span> <span style="color:#66d9ef">User</span><span style="color:#f92672">.</span>find(<span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Find all posts for that user, ordered by creation date</span>
+</span></span><span style="display:flex;"><span>posts <span style="color:#f92672">=</span> user<span style="color:#f92672">.</span>posts<span style="color:#f92672">.</span>order(<span style="color:#e6db74">created_at</span>: <span style="color:#e6db74">:desc</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Create a new post</span>
+</span></span><span style="display:flex;"><span>new_post <span style="color:#f92672">=</span> user<span style="color:#f92672">.</span>posts<span style="color:#f92672">.</span>create(<span style="color:#e6db74">title</span>: <span style="color:#e6db74">&#34;My New Post&#34;</span>, <span style="color:#e6db74">content</span>: <span style="color:#e6db74">&#34;Hello, world!&#34;</span>)
+</span></span></code></pre></div><p>It was fluid, intuitive, and it just worked. You could interact with your database as if it were just another collection of Ruby objects. The complexity of SQL was abstracted away, leaving you to focus on your application&rsquo;s logic. It was, in a word, magical.</p>
+</li>
+</ol>
+<hr>
+<p><a href="https://iboard.github.io/posts/2025-11-01-never-look-back-part-1/">Read prev: Introduction</a> | <a href="https://iboard.github.io/posts/2025-11-03-never-look-back-part-3/">Read next: The Cracks in the Foundation</a></p>
+</section>
+      </div>
+
+
+    </article>
+</main>
+<footer>
+  <div class="footer-wrap -small"><a class="soc" href="https://github.com/iboard" rel="me" title="GitHub"
+      ><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
+</svg></a
+    ><a class="border"></a><a class="soc" href="https://bsky.app/altendorfer.at" rel="me" title="Bsky"
+      ><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#target" />
+</svg></a
+    ><a class="border"></a><div class="footer-info">
+      2025 
+      <a href="/about">© Andi Altendorfer</a> | 
+      <a href="/about/license">License</a> | Built with
+      <a href="https://gohugo.io">Hugo</a>
+    </div>
+  </div>
+</footer>
+  
+</div>
+    </body>
+</html>

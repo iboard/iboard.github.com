@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Never Look Back - The Cracks in the Foundation - Andi Altendorfer</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Chapter 2: Discussing the challenges and limitations encountered with Ruby on Rails as applications scale, including magic becoming obfuscation, concurrency issues, and architectural patterns." />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="https://iboard.github.io/posts/2025-11-03-never-look-back-part-3/">
+  <meta property="og:site_name" content="Andi Altendorfer">
+  <meta property="og:title" content="Never Look Back - The Cracks in the Foundation">
+  <meta property="og:description" content="Chapter 2: Discussing the challenges and limitations encountered with Ruby on Rails as applications scale, including magic becoming obfuscation, concurrency issues, and architectural patterns.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-11-03T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-11-03T00:00:00+00:00">
+    <meta property="article:tag" content="Elixir">
+    <meta property="article:tag" content="Programming">
+    <meta property="article:tag" content="Webdev">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Never Look Back - The Cracks in the Foundation">
+  <meta name="twitter:description" content="Chapter 2: Discussing the challenges and limitations encountered with Ruby on Rails as applications scale, including magic becoming obfuscation, concurrency issues, and architectural patterns.">
+
+        <link href="https://iboard.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://iboard.github.io/css/main.e67317426819e55d53e25594c6c2f5d9954e3b7bd60919d8d75ab322810b0494.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://iboard.github.io/css/dark.441e799130b3fa0fefac68d1528dc12b07af1e8307f46cf17bf48f895b2efeef.css"  disabled />
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://iboard.github.io/">Andi Altendorfer</a>
+	</div>
+	<nav>
+		
+		<a href="/">cd /</a>
+		
+		<a href="/craftsman">/craft</a>
+		
+		<a href="/posts">/posts</a>
+		
+		<a href="/archives">/archives</a>
+		
+		<a href="/about">/about</a>
+		
+		<a href="/ematrix">/x</a>
+		
+		<a href="/categories">/c</a>
+		
+		<a href="/tags">#</a>
+		
+		| <span id="dark-mode-toggle" onclick="toggleTheme()"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#sun" />
+</svg></span>
+		<script src="https://iboard.github.io/js/themetoggle.js"></script>
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">Never Look Back - The Cracks in the Foundation</h1>
+          <div class="meta">
+            Posted on Nov 3, 2025
+          </div>
+        </div>
+        
+      
+      
+      <div class="right-toc">
+        <div class=""><a href="/tags">#TAGS</a>
+          <div class="post-tags">
+            
+            
+            <nav class="nav tags">
+              <ul class="tags">
+                
+                <li><a href="/tags/elixir">elixir</a></li>
+                
+                <li><a href="/tags/programming">programming</a></li>
+                
+                <li><a href="/tags/webdev">webdev</a></li>
+                
+              </ul>
+            </nav>
+            
+            
+          </div>
+        <strong>#TOC</strong>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#chapter-2-the-cracks-in-the-foundation">Chapter 2: The Cracks in the Foundation</a></li>
+  </ul>
+</nav>
+        </div>
+      </div>
+      
+      
+        <section class="body"><h2 id="chapter-2-the-cracks-in-the-foundation">Chapter 2: The Cracks in the Foundation</h2>
+<p>For a long time, the magic was enough. But as applications grow, as user loads increase, and as teams expand, the very magic that made Rails so initially appealing can start to feel like a curse. The shortcuts become technical debt, and the abstractions hide performance bottlenecks that are difficult to diagnose and fix.</p>
+<ol>
+<li>
+<p><strong>When Magic Becomes Obfuscation</strong></p>
+<p>The &ldquo;convention over configuration&rdquo; mantra works beautifully until you need to deviate from the convention. When you need to do something non-standard, you suddenly find yourself fighting the framework, digging through layers of abstraction to understand how to override the &ldquo;magic.&rdquo;</p>
+<p>A classic example is ActiveRecord callbacks. <code>before_save</code>, <code>after_create</code>, <code>after_commit</code>. These seem like convenient hooks, but they can quickly create a tangled web of side effects. A simple <code>user.save</code> might trigger a cascade of emails, API calls, and data updates in other models. It becomes incredibly difficult to reason about the flow of data and to test components in isolation. The magic that once helped you now hides the complexity, making the system brittle and unpredictable.</p>
+</li>
+<li>
+<p><strong>The Elephant in the Room: Concurrency and the GIL</strong></p>
+<p>The biggest challenge for any maturing Rails application is performance and scalability. At the heart of this challenge is the Global Interpreter Lock (GIL) in the standard MRI (Matz&rsquo;s Ruby Interpreter). The GIL means that even on a multi-core processor, only one thread of Ruby code can execute at a time.</p>
+<p>This has profound implications for a web server. When a request comes in that involves I/O (like a database query or an external API call), the process can release the lock, allowing another thread to run. This is concurrency, but it&rsquo;s not parallelism. You can&rsquo;t perform multiple CPU-intensive tasks simultaneously.</p>
+<p>The practical result is that scaling a Rails application often means scaling <em>out</em> (adding more machines) rather than scaling <em>up</em> (using more powerful machines). To handle high traffic, you run multiple server processes on each machine, sitting behind a load balancer. To handle background work, you rely on separate systems like Sidekiq or Resque, which have their own processes and memory overhead. The architecture becomes a complex, distributed system by necessity, not by design.</p>
+</li>
+<li>
+<p><strong>Architectural Patterns: Fat Models, Skinny Controllers</strong></p>
+<p>Rails encourages a pattern of &ldquo;Fat Models, Skinny Controllers.&rdquo; The idea is to keep your controllers lean, delegating all business logic to the ActiveRecord models. This sounds good in theory, but in a large application, it leads to <code>User.rb</code> and <code>Order.rb</code> files that are thousands of lines long. These &ldquo;god objects&rdquo; become responsible for everything from data validation and persistence to sending emails, processing payments, and generating reports.</p>
+<p>They violate the Single Responsibility Principle on a grand scale. They are difficult to test, impossible to reason about, and a nightmare to refactor. The community has come up with solutions—Service Objects, Form Objects, Presenters—but these are bolt-on patterns, not something the framework guides you towards naturally. You have to actively fight the framework&rsquo;s initial pull to avoid this architectural dead end.</p>
+</li>
+</ol>
+<hr>
+<p><a href="https://iboard.github.io/posts/2025-11-02-never-look-back-part-2/">Read prev: The Allure of the Ruby Slippers</a> | <a href="https://iboard.github.io/posts/2025-11-04-never-look-back-part-4/">Read next: A New Paradigm: The Elixir of Life</a></p>
+</section>
+      </div>
+
+
+    </article>
+</main>
+<footer>
+  <div class="footer-wrap -small"><a class="soc" href="https://github.com/iboard" rel="me" title="GitHub"
+      ><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
+</svg></a
+    ><a class="border"></a><a class="soc" href="https://bsky.app/altendorfer.at" rel="me" title="Bsky"
+      ><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#target" />
+</svg></a
+    ><a class="border"></a><div class="footer-info">
+      2025 
+      <a href="/about">© Andi Altendorfer</a> | 
+      <a href="/about/license">License</a> | Built with
+      <a href="https://gohugo.io">Hugo</a>
+    </div>
+  </div>
+</footer>
+  
+</div>
+    </body>
+</html>

@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Andi Altendorfer</copyright>
-    <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iboard.github.io/categories/article/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Never Look Back - Introduction</title>
+      <link>https://iboard.github.io/posts/2025-11-01-never-look-back-part-1/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-11-01-never-look-back-part-1/</guid>
+      <description>An introduction to the &amp;lsquo;Never Look Back&amp;rsquo; series, detailing the author&amp;rsquo;s journey from Ruby on Rails to Elixir and Phoenix.</description>
+    </item>
     <item>
       <title>Software Development</title>
       <link>https://iboard.github.io/craftsman/</link>
@@ -24,11 +31,25 @@
       <description>&lt;p&gt;In the ever-evolving world of software development, it&amp;rsquo;s easy to get caught up in the latest frameworks, languages, and tools. While these are important, they are only one side of the coin. The other side is the mindset and professionalism we bring to our work. This is the essence of Software Craftsmanship.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-software-craftsmanship&#34;&gt;What is Software Craftsmanship?&lt;/h2&gt;&#xA;&lt;p&gt;Software Craftsmanship is a movement that promotes the idea of software development as a skilled craft. It&amp;rsquo;s about taking pride in our work, and striving to create software that is not only functional but also well-crafted, maintainable, and a joy to work with.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Never Look Back - The Allure of the Ruby Slippers</title>
+      <link>https://iboard.github.io/posts/2025-11-02-never-look-back-part-2/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-11-02-never-look-back-part-2/</guid>
+      <description>Chapter 1: Exploring the initial appeal and powerful features of Ruby on Rails, including Convention over Configuration and ActiveRecord.</description>
+    </item>
+    <item>
       <title>Clean Code: The Foundation of a Solid Product</title>
       <link>https://iboard.github.io/craftsman/02-the-importance-of-clean-code/</link>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://iboard.github.io/craftsman/02-the-importance-of-clean-code/</guid>
       <description>&lt;p&gt;In the first article of this series, we introduced the concept of Software Craftsmanship. Now, let&amp;rsquo;s dive into one of the most fundamental practices of a software craftsman: writing clean code.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-clean-code&#34;&gt;What is Clean Code?&lt;/h2&gt;&#xA;&lt;p&gt;Clean code is code that is easy to read, understand, and maintain. It&amp;rsquo;s code that is self-documenting, and that clearly expresses its intent. As Robert C. Martin says in his book &amp;ldquo;Clean Code: A Handbook of Agile Software Craftsmanship&amp;rdquo;, clean code is &amp;ldquo;code that has been taken care of.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Never Look Back - The Cracks in the Foundation</title>
+      <link>https://iboard.github.io/posts/2025-11-03-never-look-back-part-3/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-11-03-never-look-back-part-3/</guid>
+      <description>Chapter 2: Discussing the challenges and limitations encountered with Ruby on Rails as applications scale, including magic becoming obfuscation, concurrency issues, and architectural patterns.</description>
     </item>
     <item>
       <title>The Professional Developer: Taking Ownership of Your Work</title>
@@ -38,11 +59,25 @@
       <description>&lt;p&gt;In our ongoing series on Software Craftsmanship, we&amp;rsquo;ve explored the importance of clean code and the craftsman&amp;rsquo;s mindset. Now, let&amp;rsquo;s delve into a crucial aspect of that mindset: professionalism.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-professionalism-in-software-development&#34;&gt;What is Professionalism in Software Development?&lt;/h2&gt;&#xA;&lt;p&gt;Professionalism in software development is about more than just writing code that works. It&amp;rsquo;s about taking ownership of your work, being accountable for the quality of the software you produce, and conducting yourself in a way that inspires trust and confidence from your team and stakeholders.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Never Look Back - A New Paradigm: The Elixir of Life</title>
+      <link>https://iboard.github.io/posts/2025-11-04-never-look-back-part-4/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-11-04-never-look-back-part-4/</guid>
+      <description>Chapter 3: Introducing Elixir as a new paradigm, focusing on its functional programming approach, pattern matching, and the robust BEAM virtual machine.</description>
+    </item>
+    <item>
       <title>The Lifelong Learner: Staying Sharp in a Changing World</title>
       <link>https://iboard.github.io/craftsman/04-continuous-learning/</link>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://iboard.github.io/craftsman/04-continuous-learning/</guid>
       <description>&lt;p&gt;In the world of software development, the only constant is change. New languages, frameworks, and technologies are emerging all the time. To stay relevant and effective as a software craftsman, you must be a lifelong learner.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-importance-of-continuous-learning&#34;&gt;The Importance of Continuous Learning&lt;/h2&gt;&#xA;&lt;p&gt;Continuous learning is not just about keeping up with the latest trends. It&amp;rsquo;s about honing your skills, deepening your understanding of fundamental principles, and constantly striving to become a better developer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Never Look Back - Phoenix - The Framework That Respects You</title>
+      <link>https://iboard.github.io/posts/2025-11-05-never-look-back-part-5/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-11-05-never-look-back-part-5/</guid>
+      <description>Chapter 4: Delving into the Phoenix framework, highlighting its explicit design, Ecto for data handling, and Plug for composable architecture.</description>
     </item>
     <item>
       <title>The Collaborative Craftsman: Working Together...</title>
@@ -52,6 +87,13 @@
       <description>&lt;p&gt;Software development is rarely a solitary endeavor. In today&amp;rsquo;s complex projects, collaboration is not just a nice-to-have; it&amp;rsquo;s a fundamental requirement for success. A true software craftsman understands that building great software is a team sport.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-collaboration-matters&#34;&gt;Why Collaboration Matters&lt;/h2&gt;&#xA;&lt;p&gt;Effective collaboration brings numerous benefits to a software project:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Shared Understanding:&lt;/strong&gt; When team members work closely together, they develop a shared understanding of the project goals, requirements, and technical challenges. This reduces misunderstandings and leads to better solutions.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Improved Quality:&lt;/strong&gt; Collaboration fosters peer review, knowledge sharing, and constructive feedback. This helps catch errors early, improves code quality, and leads to more robust software.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Faster Problem Solving:&lt;/strong&gt; Two heads are often better than one. When faced with a difficult problem, a collaborative team can brainstorm solutions, leverage diverse perspectives, and arrive at a solution more quickly.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Knowledge Transfer:&lt;/strong&gt; Collaboration is a powerful mechanism for knowledge transfer. Junior developers can learn from experienced mentors, and everyone can benefit from sharing their expertise.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Increased Morale:&lt;/strong&gt; Working together effectively can be a highly rewarding experience. A collaborative environment fosters a sense of camaraderie, shared purpose, and mutual respect, leading to higher team morale and job satisfaction.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tips-for-effective-collaboration&#34;&gt;Tips for Effective Collaboration&lt;/h2&gt;&#xA;&lt;p&gt;Here are some practical tips for fostering a collaborative environment:&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Never Look Back - The Real-Time Revolution with LiveView</title>
+      <link>https://iboard.github.io/posts/2025-11-06-never-look-back-part-6/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-11-06-never-look-back-part-6/</guid>
+      <description>Chapter 5: Exploring Phoenix LiveView, a revolutionary approach to building real-time user experiences with minimal JavaScript.</description>
+    </item>
+    <item>
       <title>What Does Clean Code Look Like? Insights from the Experts</title>
       <link>https://iboard.github.io/craftsman/06-what-is-clean-code/</link>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
@@ -59,11 +101,18 @@
       <description>&lt;p&gt;In our journey to becoming better software craftsmen, we&amp;rsquo;ve talked a lot about the importance of clean code. But what does &amp;ldquo;clean code&amp;rdquo; actually mean? To get a better understanding, let&amp;rsquo;s turn to some of the most respected figures in the software development industry and see what they have to say.&lt;/p&gt;&#xA;&lt;h2 id=&#34;robert-c-martin-uncle-bob&#34;&gt;Robert C. Martin (Uncle Bob)&lt;/h2&gt;&#xA;&lt;p&gt;Robert C. Martin, also known as &amp;ldquo;Uncle Bob,&amp;rdquo; is the author of the influential book &amp;ldquo;Clean Code: A Handbook of Agile Software Craftsmanship.&amp;rdquo; He has many insightful things to say about clean code, but one of my favorites is:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Never Look Back: A Phoenix Rises from Rails&#39; Ashes</title>
-      <link>https://iboard.github.io/posts/2025-11-07-never-look-back/</link>
+      <title>Never Look Back - Performance, Scalability, and Peace of Mind</title>
+      <link>https://iboard.github.io/posts/2025-11-07-never-look-back-part-7/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://iboard.github.io/posts/2025-11-07-never-look-back/</guid>
-      <description>&lt;h2 id=&#34;introduction-the-end-of-a-journey-the-start-of-another&#34;&gt;Introduction: The End of a Journey, The Start of Another&lt;/h2&gt;&#xA;&lt;p&gt;Every software developer has a path, a winding road of languages, frameworks, and philosophies that shapes their craft. My own journey has taken me through the structured landscapes of Pascal, the raw power of C++, and the wild, chaotic frontier of early PHP web development. For a long time, I was a journeyman, picking up tools as I needed them, solving problems, and moving on. Then came the era of frameworks, promising order, productivity, and a &amp;ldquo;right way&amp;rdquo; to build things. And for a significant part of the web&amp;rsquo;s history, the undisputed king of that era was Ruby on Rails.&lt;/p&gt;</description>
+      <guid>https://iboard.github.io/posts/2025-11-07-never-look-back-part-7/</guid>
+      <description>Chapter 6: Discussing the performance, scalability, and peace of mind offered by Elixir and the BEAM, including massive concurrency and supervision trees.</description>
+    </item>
+    <item>
+      <title>Never Look Back - Why I Haven&#39;t Looked Back</title>
+      <link>https://iboard.github.io/posts/2025-11-08-never-look-back-part-8/</link>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-11-08-never-look-back-part-8/</guid>
+      <description>Chapter 7: Explaining why the author hasn&amp;rsquo;t looked back at Ruby on Rails, highlighting the benefits of Elixir and Phoenix for modern web development.</description>
     </item>
     <item>
       <title>The Big Bang of the World Wide Web</title>
