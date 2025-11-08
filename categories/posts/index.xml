@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Andi Altendorfer</copyright>
-    <lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iboard.github.io/categories/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Never Look Back - Introduction</title>
@@ -64,6 +64,13 @@
       <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://iboard.github.io/posts/2025-11-08-never-look-back-part-8/</guid>
       <description>Chapter 7: Explaining why the author hasn&amp;rsquo;t looked back at Ruby on Rails, highlighting the benefits of Elixir and Phoenix for modern web development.</description>
+    </item>
+    <item>
+      <title>Never Look Back - Conclusion</title>
+      <link>https://iboard.github.io/posts/2025-11-09-never-look-back-part-9/</link>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2025-11-09-never-look-back-part-9/</guid>
+      <description>Conclusion: Summarizing the author&amp;rsquo;s journey from Rails to Elixir/Phoenix and the reasons for embracing the future of concurrent, real-time, and resilient web development.</description>
     </item>
     <item>
       <title>Procrastinating Friday</title>
