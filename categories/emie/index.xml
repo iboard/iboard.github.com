@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Andi Altendorfer</copyright>
-    <lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iboard.github.io/categories/emie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Upload HR-JSON Files for EMIE Instances</title>
+      <link>https://iboard.github.io/ematrix/emie/support/2025-11-26-upload-hr-files/</link>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/ematrix/emie/support/2025-11-26-upload-hr-files/</guid>
+      <description>&lt;h2 id=&#34;figure-out-where-the-instance-is-running&#34;&gt;Figure out where the instance is running&lt;/h2&gt;&#xA;&lt;p&gt;If you don&amp;rsquo;t know in which path the isntance is running. Start with NGINX&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;ssh &lt;a href=&#34;mailto:developer@dockerat.ematrixsys.com&#34;&gt;developer@dockerat.ematrixsys.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;sudo grep &amp;ldquo;whatyousearch.kportal.io&amp;rdquo; -&amp;gt; gives you a filename&lt;/li&gt;&#xA;&lt;li&gt;The instance is running in either of those paths: /opt/production/emie-&lt;em&gt;/data or /opt/production_nl/production_on/emie-&lt;/em&gt;/data&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;figure-out-if-the-customer-is-using-hr-files&#34;&gt;Figure out if the customer is using HR-Files&lt;/h2&gt;&#xA;&lt;ol start=&#34;5&#34;&gt;&#xA;&lt;li&gt;Does the file &lt;code&gt;data/hr-import/hr-data.json&lt;/code&gt; exists?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;upload-the-file&#34;&gt;Upload the file&lt;/h2&gt;&#xA;&lt;ol start=&#34;6&#34;&gt;&#xA;&lt;li&gt;If so, upload a new file and ensure the permissions and owner of the file is correnct.&lt;/li&gt;&#xA;&lt;li&gt;use &lt;code&gt;sftp you-local-hr-file.json developer@dockerat.ematrixsys.com:/opt/production/emie-insstance/data/hr-import/hr-data.json&lt;/code&gt;&#xA;to upload the file.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;wait-or-restart-the-instance&#34;&gt;Wait or Restart the Instance&lt;/h2&gt;&#xA;&lt;ol start=&#34;8&#34;&gt;&#xA;&lt;li&gt;Just wait until the import is running from the schedule or restart the instance with&#xA;&lt;code&gt;source .setup_env; docker-compose stop app; docker-compose up -d&lt;/code&gt;&#xA;from your workstation to the production-server.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
     <item>
       <title>Expand expires at for courses in Kindberg</title>
       <link>https://iboard.github.io/ematrix/emie/support/2025-10-14-expand-expire-at-kindberg/</link>
