@@ -135,12 +135,12 @@ In this post, we’ll walk through how to protect a directory called /private an
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">root</span> <span style="color:#e6db74">/var/www/html</span>;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># This is the public part of your site
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">location</span> <span style="color:#e6db74">/</span> {
+</span></span></span><span style="display:flex;"><span>    <span style="color:#f92672">location</span> <span style="color:#e6db74">/</span> {
 </span></span><span style="display:flex;"><span>        <span style="color:#f92672">try_files</span> $uri $uri/ =<span style="color:#ae81ff">404</span>;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># This is the protected directory
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">location</span> <span style="color:#e6db74">/private</span> {
+</span></span></span><span style="display:flex;"><span>    <span style="color:#f92672">location</span> <span style="color:#e6db74">/private</span> {
 </span></span><span style="display:flex;"><span>        <span style="color:#f92672">auth_basic</span> <span style="color:#e6db74">&#34;Restricted</span> <span style="color:#e6db74">Content&#34;</span>;
 </span></span><span style="display:flex;"><span>        <span style="color:#f92672">auth_basic_user_file</span> <span style="color:#e6db74">/etc/nginx/.htpasswd</span>;
 </span></span><span style="display:flex;"><span>        <span style="color:#f92672">try_files</span> $uri $uri/ =<span style="color:#ae81ff">404</span>;
@@ -173,7 +173,7 @@ In this post, we’ll walk through how to protect a directory called /private an
    <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#target" />
 </svg></a
     ><a class="border"></a><div class="footer-info">
-      2025 
+      2026 
       <a href="/about">© Andi Altendorfer</a> | 
       <a href="/about/license">License</a> | Built with
       <a href="https://gohugo.io">Hugo</a>

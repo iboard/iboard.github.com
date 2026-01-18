@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Andi Altendorfer</title>
+    <link>https://iboard.github.io/tags/linux/</link>
+    <description>Recent content in Linux on Andi Altendorfer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Andi Altendorfer</copyright>
+    <lastBuildDate>Sun, 18 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://iboard.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Omarchy on a 2017 MacBook Pro: A Developer&#39;s Perspective</title>
+      <link>https://iboard.github.io/posts/2026-01-18-omarchy-macbook-pro/</link>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2026-01-18-omarchy-macbook-pro/</guid>
+      <description>&lt;h2 id=&#34;my-omarchy-experience-on-a-2017-macbook-pro&#34;&gt;My Omarchy Experience on a 2017 MacBook Pro&lt;/h2&gt;&#xA;&lt;p&gt;It&amp;rsquo;s not every day that a new operating system truly impresses me, especially when running on older hardware. However, my recent experience with Omarchy on my trusty 2017 MacBook Pro has been overwhelmingly positive. This setup has, hands down, provided the best development environment I&amp;rsquo;ve encountered to date.&lt;/p&gt;&#xA;&lt;p&gt;For years, this particular MacBook Pro has been a workhorse. While it&amp;rsquo;s still a capable machine, newer macOS versions have sometimes felt a bit sluggish, and the overall experience wasn&amp;rsquo;t as snappy as it once was. Enter Omarchy. From the moment I installed it, the system felt revitalized. The interface is clean, intuitive, and remarkably responsive, breathing new life into the hardware.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
