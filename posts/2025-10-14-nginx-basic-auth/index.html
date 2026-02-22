@@ -122,14 +122,14 @@ In this post, we’ll walk through how to protect a directory called /private an
 <h3 id="1-creating-the-password-file">1. Creating the Password File</h3>
 <p>First, we need to create a <code>.htpasswd</code> file that will store our username and password. The password needs to be encrypted. We can use the <code>htpasswd</code> command-line tool for this. If you don&rsquo;t have it, you can usually install it with <code>apache2-utils</code>.</p>
 <p>Let&rsquo;s create a file with the username <code>private</code> and the password <code>secret</code>. The <code>-c</code> flag creates a new file. For subsequent users, you would omit this flag.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>htpasswd -c /etc/nginx/.htpasswd private
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>htpasswd -c /etc/nginx/.htpasswd private
 </span></span></code></pre></div><p>You will be prompted to enter the password. Type <code>secret</code> and press enter.</p>
 <p>The resulting <code>/etc/nginx/.htpasswd</code> file will contain a line similar to this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>private:$apr1$bJ.6g.8B$Z3gO8v.A.d5a.r/2zI3Ea/
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>private:$apr1$bJ.6g.8B$Z3gO8v.A.d5a.r/2zI3Ea/
 </span></span></code></pre></div><h3 id="2-configuring-nginx">2. Configuring Nginx</h3>
 <p>Now, we need to tell Nginx to protect the <code>/private</code> location. We do this by adding a <code>location</code> block to our server configuration.</p>
 <p>Here’s an example of what your Nginx configuration might look like. This assumes your website files are served from <code>/var/www/html</code>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-nginx" data-lang="nginx"><span style="display:flex;"><span><span style="color:#66d9ef">server</span> {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-nginx" data-lang="nginx"><span style="display:flex;"><span><span style="color:#66d9ef">server</span> {
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">listen</span> <span style="color:#ae81ff">80</span>;
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">server_name</span> <span style="color:#e6db74">your_domain.com</span>;
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">root</span> <span style="color:#e6db74">/var/www/html</span>;
@@ -154,7 +154,7 @@ In this post, we’ll walk through how to protect a directory called /private an
 </ol>
 <h3 id="3-reloading-nginx">3. Reloading Nginx</h3>
 <p>After you&rsquo;ve saved your configuration, you need to reload Nginx for the changes to take effect.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl reload nginx
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl reload nginx
 </span></span></code></pre></div><p>Now, if you try to access <code>http://your_domain.com/private</code> in your browser, you&rsquo;ll be prompted for a username and password.</p>
 <p>That&rsquo;s it! You&rsquo;ve successfully secured a directory on your website.</p>
 </section>

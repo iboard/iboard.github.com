@@ -109,7 +109,7 @@
 <p><strong>Functional Programming vs. Object-Oriented</strong></p>
 <p>Moving from Ruby to Elixir is a shift from an Object-Oriented (OO) mindset to a Functional Programming (FP) one. In Ruby, everything is an object. You create instances of classes, these instances hold state, and you call methods on them that mutate that state.</p>
 <p>In Elixir, the primary building blocks are functions. Data is separate from behavior. And, crucially, data is <em>immutable</em>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elixir" data-lang="elixir"><span style="display:flex;"><span><span style="color:#75715e"># In Elixir, you don&#39;t change data, you transform it.</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-elixir" data-lang="elixir"><span style="display:flex;"><span><span style="color:#75715e"># In Elixir, you don&#39;t change data, you transform it.</span>
 </span></span><span style="display:flex;"><span>my_map <span style="color:#f92672">=</span> %{<span style="color:#e6db74">name</span>: <span style="color:#e6db74">&#34;Andi&#34;</span>, <span style="color:#e6db74">role</span>: <span style="color:#e6db74">&#34;developer&#34;</span>}
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># This doesn&#39;t change my_map. It returns a NEW map.</span>
@@ -122,7 +122,7 @@
 <p><strong>Pattern Matching: A Developer&rsquo;s Superpower</strong></p>
 <p>If there&rsquo;s one feature that defines the Elixir experience, it&rsquo;s pattern matching. It&rsquo;s not just a <code>switch</code> statement on steroids; it&rsquo;s a way of controlling program flow and destructuring data at the same time.</p>
 <p>You can pattern match on function heads:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elixir" data-lang="elixir"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> handle_request(%{<span style="color:#e6db74">method</span>: <span style="color:#e6db74">&#34;GET&#34;</span>, <span style="color:#e6db74">path</span>: <span style="color:#e6db74">&#34;/users/&#34;</span> <span style="color:#f92672">&lt;&gt;</span> id}) <span style="color:#66d9ef">do</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-elixir" data-lang="elixir"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> handle_request(%{<span style="color:#e6db74">method</span>: <span style="color:#e6db74">&#34;GET&#34;</span>, <span style="color:#e6db74">path</span>: <span style="color:#e6db74">&#34;/users/&#34;</span> <span style="color:#f92672">&lt;&gt;</span> id}) <span style="color:#66d9ef">do</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Logic to get user by id</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span>
@@ -135,7 +135,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span></code></pre></div><p>This is incredibly expressive. The function signature itself documents what it expects. The <code>_request</code> catch-all at the end is a common pattern that acts as an &ldquo;else&rdquo; and prevents unhandled cases from crashing (or rather, allows them to to crash explicitly, which we&rsquo;ll get to).</p>
 <p>You can also use it with the <code>case</code> statement to handle different outcomes:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elixir" data-lang="elixir"><span style="display:flex;"><span><span style="color:#66d9ef">case</span> <span style="color:#a6e22e">Repo</span><span style="color:#f92672">.</span>insert(changeset) <span style="color:#66d9ef">do</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-elixir" data-lang="elixir"><span style="display:flex;"><span><span style="color:#66d9ef">case</span> <span style="color:#a6e22e">Repo</span><span style="color:#f92672">.</span>insert(changeset) <span style="color:#66d9ef">do</span>
 </span></span><span style="display:flex;"><span>  {<span style="color:#e6db74">:ok</span>, user} <span style="color:#f92672">-&gt;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Success! Do something with the created user.</span>
 </span></span><span style="display:flex;"><span>    {<span style="color:#e6db74">:ok</span>, user}

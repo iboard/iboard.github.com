@@ -110,7 +110,7 @@
 <p>Ecto is the database wrapper and query language for Phoenix. It is not an ActiveRecord clone. Its most important innovation is the <code>Changeset</code>.</p>
 <p>In Rails, validation rules live on the model. When you call <code>model.valid?</code>, it checks its internal state. When you call <code>model.update(params)</code>, it tries to update its attributes and save, all in one go.</p>
 <p>In Phoenix, data and validation are decoupled. A changeset is a dedicated data structure that represents a <em>proposed change</em>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elixir" data-lang="elixir"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> changeset(user, attrs) <span style="color:#66d9ef">do</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-elixir" data-lang="elixir"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> changeset(user, attrs) <span style="color:#66d9ef">do</span>
 </span></span><span style="display:flex;"><span>  user
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">|&gt;</span> cast(attrs, [<span style="color:#e6db74">:name</span>, <span style="color:#e6db74">:email</span>])
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">|&gt;</span> validate_required([<span style="color:#e6db74">:name</span>, <span style="color:#e6db74">:email</span>])
@@ -126,7 +126,7 @@
 </ol>
 <p>The key is that this function <em>returns</em> a changeset. The changeset contains the original data, the proposed changes, a list of validations, and a <code>valid?</code> flag. No side effects have occurred. The database has not been touched.</p>
 <p>Your controller then explicitly uses this changeset to perform the database operation:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elixir" data-lang="elixir"><span style="display:flex;"><span><span style="color:#66d9ef">case</span> <span style="color:#a6e22e">MyApp.Accounts</span><span style="color:#f92672">.</span>create_user(params) <span style="color:#66d9ef">do</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-elixir" data-lang="elixir"><span style="display:flex;"><span><span style="color:#66d9ef">case</span> <span style="color:#a6e22e">MyApp.Accounts</span><span style="color:#f92672">.</span>create_user(params) <span style="color:#66d9ef">do</span>
 </span></span><span style="display:flex;"><span>  {<span style="color:#e6db74">:ok</span>, user} <span style="color:#f92672">-&gt;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Redirect to show page</span>
 </span></span><span style="display:flex;"><span>  {<span style="color:#e6db74">:error</span>, %<span style="color:#a6e22e">Ecto.Changeset</span>{} <span style="color:#f92672">=</span> changeset} <span style="color:#f92672">-&gt;</span>
@@ -140,7 +140,7 @@
 <p><strong>Plug: A Composable Architecture</strong></p>
 <p>Phoenix is built on a specification called <code>Plug</code>. A plug is just a function that takes a connection struct (<code>conn</code>) and some options, and returns a (possibly modified) <code>conn</code>.</p>
 <p>Your entire request-response lifecycle is a pipeline of plugs.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elixir" data-lang="elixir"><span style="display:flex;"><span>pipeline <span style="color:#e6db74">:browser</span> <span style="color:#66d9ef">do</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-elixir" data-lang="elixir"><span style="display:flex;"><span>pipeline <span style="color:#e6db74">:browser</span> <span style="color:#66d9ef">do</span>
 </span></span><span style="display:flex;"><span>  plug <span style="color:#e6db74">:accepts</span>, [<span style="color:#e6db74">&#34;html&#34;</span>]
 </span></span><span style="display:flex;"><span>  plug <span style="color:#e6db74">:fetch_session</span>
 </span></span><span style="display:flex;"><span>  plug <span style="color:#e6db74">:fetch_live_flash</span>
