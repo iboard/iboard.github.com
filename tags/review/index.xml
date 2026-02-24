@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Andi Altendorfer</copyright>
-    <lastBuildDate>Sun, 18 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iboard.github.io/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Big Move</title>
+      <link>https://iboard.github.io/posts/2026-02-24-infomaniak-ksuite/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://iboard.github.io/posts/2026-02-24-infomaniak-ksuite/</guid>
+      <description>&lt;p&gt;Moving away from the dominant Big Tech ecosystem often feels like a daunting task—one that usually involves a complex weekend of &amp;ldquo;digital surgery.&amp;rdquo; However, I recently made the switch to &lt;strong&gt;&lt;a href=&#34;https://www.infomaniak.com/en/ksuite/myksuite&#34;&gt;kSuite&lt;/a&gt;&lt;/strong&gt; the Swiss-based collaborative solution from &lt;strong&gt;&lt;a href=&#34;https://infomaniak.com&#34;&gt;Infomaniak&lt;/a&gt;&lt;/strong&gt;, and the experience was surprisingly smooth.&lt;/p&gt;&#xA;&lt;p&gt;If you’re looking for a digital home that values privacy, independence, and cost-effectiveness without the &amp;ldquo;Silicon Valley&amp;rdquo; strings attached, here is why kSuite should be on your radar.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Omarchy on a 2017 MacBook Pro: A Developer&#39;s Perspective</title>
       <link>https://iboard.github.io/posts/2026-01-18-omarchy-macbook-pro/</link>

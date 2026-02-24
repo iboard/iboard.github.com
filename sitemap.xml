@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://iboard.github.io/posts/2026-02-24-infomaniak-ksuite/</loc>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://iboard.github.io/posts/2026-01-18-omarchy-macbook-pro/</loc>
     <lastmod>2026-01-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -129,10 +132,28 @@
     <lastmod>2025-09-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/categories/</loc>
-    <lastmod>2026-01-18T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iboard.github.io/categories/article/</loc>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/</loc>
-    <lastmod>2026-01-18T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iboard.github.io/posts/</loc>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iboard.github.io/tags/productivity/</loc>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iboard.github.io/categories/review/</loc>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iboard.github.io/tags/review/</loc>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iboard.github.io/tags/</loc>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/categories/development/</loc>
     <lastmod>2026-01-18T00:00:00+00:00</lastmod>
@@ -152,15 +173,6 @@
     <loc>https://iboard.github.io/tags/phoenix/</loc>
     <lastmod>2026-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://iboard.github.io/posts/</loc>
-    <lastmod>2026-01-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iboard.github.io/tags/review/</loc>
-    <lastmod>2026-01-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iboard.github.io/tags/</loc>
-    <lastmod>2026-01-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://iboard.github.io/categories/e-matrix/</loc>
     <lastmod>2025-11-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -170,13 +182,7 @@
     <loc>https://iboard.github.io/categories/emie/</loc>
     <lastmod>2025-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://iboard.github.io/categories/article/</loc>
-    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://iboard.github.io/categories/devices/</loc>
-    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iboard.github.io/tags/productivity/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/categories/elixir/</loc>
@@ -195,9 +201,6 @@
     <lastmod>2025-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/tags/programming/</loc>
-    <lastmod>2025-11-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iboard.github.io/categories/review/</loc>
     <lastmod>2025-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iboard.github.io/private/2025-11-09-signs-of-winter/</loc>
